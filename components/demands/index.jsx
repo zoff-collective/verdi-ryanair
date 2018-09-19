@@ -10,9 +10,9 @@ export default ({ title, groups }) => (
       <ul className="list">
         {groups.map(({ title, items }) => (
           <li key={title}>
-            <h3>{title}</h3>
+            <h3 className="group-title">{title}</h3>
             {items.map(demand => (
-              <div key={demand}>{demand}</div>
+              <p key={demand} className="demand-text">{demand}</p>
             ))}
           </li>
         ))}
