@@ -1,8 +1,15 @@
 import styles from './styles';
 
-export default ({ name }) => (
+import Navigation from './navigation';
+
+export default ({ name, navigation }) => (
   <header>
     <style jsx>{styles}</style>
-    <p className="name">{name}</p>
+
+    <div className="inner">
+      <p className="name">{name}</p>
+
+      <Navigation items={navigation} />
+    </div>
   </header>
 );
