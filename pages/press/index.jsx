@@ -4,7 +4,7 @@ import Layout from '../../components/layout';
 export default () => (
   <Layout>
     <Header
-      name="Cabin crew united"
+      name="Rights at Ryanair"
       navigation={[
         ['Members', '/'],
         ['Guardians', '/guardians'],

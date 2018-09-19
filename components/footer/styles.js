@@ -1,21 +1,22 @@
 import css from 'styled-jsx/css';
 
-import { colors, fonts, textMaxWidth } from '../../tokens';
+import { colors, fonts } from '../../tokens';
 
 export default css`
-  section {
+  footer {
     background-color: ${colors.yellow};
     color: ${colors.blue};
-    padding-bottom: 8rem;
-    padding-top: 8rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
   }
 
-  blockquote {
+  .title {
     font-family: ${fonts.novel.family.black};
-    font-size: 3rem;
-    line-height: 1.4;
+    font-size: 1.6rem;
+    line-height: 1.2;
     margin: 0 auto;
-    max-width: ${textMaxWidth};
+    max-width: 12rem;
     text-align: center;
+    transform: rotate(-15deg);
   }
 `;
