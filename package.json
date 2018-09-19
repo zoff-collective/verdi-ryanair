@@ -1,0 +1,22 @@
+{
+  "name": "verdi-ryanair",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavpursche/verdi-ryanair.git"
+  },
+  "author": "Gustav Pursche <pursche@posteo.de>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^6.1.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
