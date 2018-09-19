@@ -34,6 +34,7 @@ export default css`
 
   .demand-text {
     font-family: ${fonts.novel.family.extraBlack};
+    font-size: 1.6rem;
     line-height: 1.45;
     margin-bottom: 0;
     margin-top: 0;

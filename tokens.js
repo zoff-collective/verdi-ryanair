@@ -15,4 +15,6 @@ const fonts = {
   }
 };
 
-export { colors, fonts };
+const textMaxWidth = '800px';
+
+export { colors, fonts, textMaxWidth };
