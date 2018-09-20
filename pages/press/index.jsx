@@ -19,7 +19,9 @@ const withNews = (source, Child) => {
       xmltojson.stringToXML = string =>
         new DOMParser().parseFromString(string, 'text/xml');
 
-      return { news: xmltojson.parseString(str) };
+      const obj = xmltojson.parseString(str);
+
+      return { news: obj.rss[0] };
     }
 
     render() {
@@ -39,7 +41,7 @@ export default withNews(SOURCE, ({ news }) => (
       ]}
     />
 
-    {news.rss[0].channel[0].item.map(({ title, description, link, date }) => (
+    {news.channel[0].item.map(({ title, description, link, date }) => (
       <div>
         <small>{date[0]._text}</small>
         <h3>{title[0]._text}</h3>
