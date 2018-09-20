@@ -7,14 +7,6 @@ export default css`
     color: ${colors.blue};
   }
 
-  .title {
-    font-family: ${fonts.novel.family.extraBlack};
-    font-size: 5rem;
-    margin: 4rem auto;
-    text-align: center;
-    transform: rotate(-15deg);
-  }
-
   .content {
     font-family: ${fonts.novel.family.bold};
     font-size: 1.4rem;

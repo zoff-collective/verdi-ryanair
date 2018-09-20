@@ -1,10 +1,12 @@
 import styles from './styles';
 
+import Title from '../title';
+
 export default ({ title, children }) => (
   <article>
     <style jsx>{styles}</style>
 
-    <h1 className="title">{title}</h1>
+    <Title>{title}</Title>
 
     <div className="content">
       {children}

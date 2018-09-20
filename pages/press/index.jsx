@@ -5,23 +5,30 @@ import xmltojson from 'xmltojson';
 
 import Header from '../../components/header';
 import Layout from '../../components/layout';
+import News from '../../components/news';
 
 import { Component } from 'react';
 
 const SOURCE = 'https://verkehr.verdi.de/themen/nachrichten/rss';
+
+const xmlStringToJSON = str => {
+  xmltojson.stringToXML = string =>
+        new DOMParser().parseFromString(string, 'text/xml');
+
+  return xmltojson.parseString(str);
+};
+
+const getItems = json => json.rss[0].channel[0].item;
 
 const withNews = (source, Child) => {
   return class extends Component {
     static async getInitialProps() {
       const res = await fetch(source);
       const str = await res.text();
+      const obj = xmlStringToJSON(str);
+      const news = getItems(obj);
 
-      xmltojson.stringToXML = string =>
-        new DOMParser().parseFromString(string, 'text/xml');
-
-      const obj = xmltojson.parseString(str);
-
-      return { news: obj.rss[0] };
+      return { news };
     }
 
     render() {
@@ -41,13 +48,6 @@ export default withNews(SOURCE, ({ news }) => (
       ]}
     />
 
-    {news.channel[0].item.map(({ title, description, link, date }) => (
-      <div>
-        <small>{date[0]._text}</small>
-        <h3>{title[0]._text}</h3>
-        <p>{description[0]._text}</p>
-        <a href={link[0]._text}>Weiterlesen</a>
-      </div>
-    ))}
+    {news && <News title="Latest News" items={news} />}
   </Layout>
 ));
