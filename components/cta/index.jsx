@@ -1,10 +1,15 @@
 import styles from './styles';
 
+import Button from '../button';
+
 export default ({ label, title, target }) => (
   <section>
     <style jsx>{styles}</style>
 
     <h2 className="title">{title}</h2>
-    <a href={target} className="cta">{label}</a>
+
+    <Button href={target}>
+      {label}
+    </Button>
   </section>
 );

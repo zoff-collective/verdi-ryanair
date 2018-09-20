@@ -22,16 +22,4 @@ export default css`
     max-width: ${textMaxWidth};
     text-align: center;
   }
-
-  .cta {
-    background-color: ${colors.yellow};
-    border-radius: 5px;
-    color: ${colors.blue};
-    font-family: ${fonts.novel.family.bold};
-    font-size: 1.4rem;
-    margin-top: 3rem;
-    padding: 1rem 2.5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
 `;
