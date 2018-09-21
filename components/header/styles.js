@@ -20,6 +20,16 @@ export default css`
     max-width: 1200px;
   }
 
+  .logo {
+    height: 3.8rem;
+    margin-bottom: -0.5rem;
+    margin-right: 2rem;
+    margin-top: -0.5rem;
+    position: relative;
+    top: 0.25rem;
+    width: 3.8rem;
+  }
+
   .name {
     font-family: ${fonts.novel.family.black};
     font-size: 2.35rem;

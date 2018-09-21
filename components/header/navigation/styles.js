@@ -10,7 +10,7 @@ export default css`
     justify-content: center;
     list-style: none;
     margin-bottom: 0;
-    margin-left: 12rem;
+    margin-left: 14rem;
     margin-top: 0;
     padding-left: 0;
   }
