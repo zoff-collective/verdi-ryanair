@@ -23,7 +23,7 @@ export default ({ title, items }) => (
           <p className="text">{getText(description)}</p>
 
           <div className="button-container">
-            <Button href={getText(link)} backgroundColor="blue" color="yellow">
+            <Button href={getText(link)} backgroundColor="blue" color="white">
               Weiterlesen
             </Button>
           </div>
