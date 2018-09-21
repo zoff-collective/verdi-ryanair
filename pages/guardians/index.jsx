@@ -9,6 +9,7 @@ export default () => (
   <Layout>
     <Header
       name="Rights at Ryanair"
+      href="https://verkehr.verdi.de/branchen/luftverkehr/fluggesellschaften/ryanair"
       navigation={[
         ['Cabin Crew', '/'],
         ['Guardians', '/guardians', true],
@@ -24,13 +25,13 @@ export default () => (
       <p>
      Im August 2018 haben die deutschlandweiten ver.di Mitglieder beim Kabinenpersonal Ryanairs ihre Tarifkommission gewählt. Die 9 mutigen Kollegen und Kolleginen sind an den Flughäfen Berlin, Frankfurt, Düsseldorf, Bremen und Köln stationiert. Das Ziel der in ver.di organisierten Beschäftigten ist, per Tarifvertrag existenzsichernde und gesundheitserhaltende Arbeitsbedingungen bei Ryanair in Deutschland einzuführen.
       </p>
-      
+
      <TextHeadline>Harassment and dismissals</TextHeadline>
 
       <p>
       Gewerkschaftliche Organisierung wurde lange offiziell vom Management „untersagt“ und solidarische Aktionen, wie etwa zuletzt mit den streikenden Beschäftigten bei Ryanair in Südeuropa, mit starker Einschüchterung beantwortet. Aufgrund von Erfahrungen und der Historie bei Ryanair kann daher nicht ausgeschlossen werden, dass es zu Einschüchterung, Schikane und sogar Kündigungen gegenüber Mitgliedern der Tarifkommission kommen könnte.
       </p>
-      
+
        <TextHeadline>Supporters</TextHeadline>
 
       <p>

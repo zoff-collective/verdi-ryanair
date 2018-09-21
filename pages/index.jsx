@@ -13,6 +13,7 @@ export default () => (
   <Layout>
     <Header
       name="Rights at Ryanair"
+      href="https://verkehr.verdi.de/branchen/luftverkehr/fluggesellschaften/ryanair"
       navigation={[
         ['Cabin Crew', '/', true],
         ['Guardians', '/guardians'],
@@ -64,18 +65,26 @@ export default () => (
       target="https://my-ryanair-cabin-crew-job.typeform.com/to/mkOr7o"
       label="Book a date"
     />
-    
-     <Quote text="Feeling like I'm a number on a spreadsheet. I am the face of the company to the millions who fly Ryanair. I deserve respect." />
 
+     <Quote
+      text={`
+        Feeling like I'm a number on a spreadsheet. I am the face of the
+        company to the millions who fly Ryanair. I deserve respect.
+      `} />
 
     <Text title="We are many!">
       <p>
-        We are at every German Ryanair base. We are with Ver.di. With 2 million members Ver.di is the biggest service trade union in the world. The name Ver.di stands for Vereinte Dienstleistungsgewerkschaft – United Services Union. We, ver.di, are one union for all. We consolidate the interest of our members – and by working together empower each of us. We create unity out of diversity. 
+        We are at every German Ryanair base. We are with Ver.di. With 2 million
+        members Ver.di is the biggest service trade union in the world. The name
+        Ver.di stands for Vereinte Dienstleistungsgewerkschaft – United Services
+        Union. We, ver.di, are one union for all. We consolidate the interest of
+        our members – and by working together empower each of us. We create
+        unity out of diversity. 
       </p>
     </Text>
-    
+
      <Quote text=" Having to pay for food and water at 35,000 feet. It’s just ridiculous." />
-    
+
         <Facts
       title="Facts"
       items={[
@@ -139,12 +148,12 @@ export default () => (
     <Quote text=" There’s way too much pressure around sales targets. Cabin crew jobs should be about safety first, not sales! " />
 
      <Text title="Membership">
-     
+
       <p>
         Individual Protections and Security that ver.di cabin crew members benefit from….
-      
+
       </p>
-      
+
        <TextHeadline>Legal rights derived from collective agreements</TextHeadline>
 
       <p>

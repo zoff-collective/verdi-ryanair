@@ -9,6 +9,7 @@ export default withRSS(
     <Layout>
       <Header
         name="Rights at Ryanair"
+        href="https://verkehr.verdi.de/branchen/luftverkehr/fluggesellschaften/ryanair"
         navigation={[
           ['Cabin Crew', '/'],
           ['Guardians', '/guardians'],
