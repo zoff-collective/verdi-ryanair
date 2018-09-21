@@ -2,14 +2,18 @@ import styles from './styles';
 
 import Button from '../button';
 
-export default ({ label, title, target }) => (
+export default ({ label, title, target, image }) => (
   <section>
     <style jsx>{styles}</style>
 
+    <img src={image} alt="" />
+
     <h2 className="title">{title}</h2>
 
-    <Button href={target} size="big">
-      {label}
-    </Button>
+    <div className="button-container">
+      <Button href={target} size="big">
+        {label}
+      </Button>
+    </div>
   </section>
 );

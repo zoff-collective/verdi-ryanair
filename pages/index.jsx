@@ -18,7 +18,10 @@ export default () => (
       ]}
     />
 
-    <Hero title="Time for change at Ryanair" />
+    <Hero
+      title="Time for change at Ryanair"
+      image={require('../static/images/hero.jpg')}
+    />
 
     <Demands
       title="What do we want!"
@@ -54,6 +57,7 @@ export default () => (
     />
 
     <Cta
+      image={require('../static/images/book-a-date.jpg')}
       title="Want to be part of change at Ryanair?"
       target="https://my-ryanair-cabin-crew-job.typeform.com/to/mkOr7o"
       label="Book a date"
@@ -90,6 +94,7 @@ export default () => (
     </Text>
 
     <Cta
+      image={require('../static/images/become-member.jpg')}
       title="To help win lasting change at Ryanair"
       target="https://my-ryanair-cabin-crew-job.typeform.com/to/mkOr7o"
       label="Become a ver.di member"
