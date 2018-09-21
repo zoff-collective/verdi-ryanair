@@ -5,18 +5,17 @@ import { DOMParser } from 'xmldom';
 import xmltojson from 'xmltojson';
 
 const xmlStringToJSON = str => {
-  xmltojson.stringToXML = string =>
-        new DOMParser().parseFromString(string, 'text/xml');
+  xmltojson.stringToXML = string => new DOMParser().parseFromString(string, 'text/xml');
 
   return xmltojson.parseString(str);
 };
 
 const getItems = json => json.rss[0].channel[0].item;
 
-export default (source, Child) => {
-  return class extends Component {
+export default (source, Child) =>
+  class extends Component {
     static async getInitialProps() {
-      const res = await fetch(source);
+      const res = await window.fetch(source);
       const str = await res.text();
       const obj = xmlStringToJSON(str);
       const items = getItems(obj);
@@ -25,7 +24,6 @@ export default (source, Child) => {
     }
 
     render() {
-        return <Child {...this.props}/>
+      return <Child {...this.props} />;
     }
-  }
-};
+  };

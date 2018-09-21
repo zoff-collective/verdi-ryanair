@@ -6,7 +6,7 @@ export default ({ items }) => (
   <ul>
     <style jsx>{styles}</style>
 
-    {items.map(([ text, url, active = false ]) => (
+    {items.map(([text, url, active = false]) => (
       <li key={url}>
         {!active && (
           <Link href={url}>
@@ -14,9 +14,7 @@ export default ({ items }) => (
           </Link>
         )}
 
-        {active && (
-          <span>{text}</span>
-        )}
+        {active && <span>{text}</span>}
       </li>
     ))}
   </ul>

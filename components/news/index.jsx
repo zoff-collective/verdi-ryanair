@@ -2,6 +2,7 @@ import Button from '../button';
 import styles from './styles';
 import Title from '../title';
 
+// eslint-disable-next-line no-underscore-dangle
 const getText = node => node[0]._text;
 
 export default ({ title, items }) => (
@@ -11,11 +12,11 @@ export default ({ title, items }) => (
     <Title>{title}</Title>
 
     <ol>
-      {items.map(({ title, description, link, date }) => (
-        <li key={getText(title)}>
+      {items.map(({ itemTitle, description, link, date }) => (
+        <li key={getText(itemTitle)}>
           <h3 className="title">
             <small className="date">{getText(date)}</small>
-            {getText(title)}
+            {getText(itemTitle)}
           </h3>
 
           <p className="text">{getText(description)}</p>
@@ -27,6 +28,6 @@ export default ({ title, items }) => (
           </div>
         </li>
       ))}
-      </ol>
-    </section>
+    </ol>
+  </section>
 );

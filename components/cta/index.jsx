@@ -11,9 +11,7 @@ export default ({ label, title, target, image }) => (
     <h2 className="title">{title}</h2>
 
     <div className="button-container">
-      <Button href={target}>
-        {label}
-      </Button>
+      <Button href={target}>{label}</Button>
     </div>
   </section>
 );

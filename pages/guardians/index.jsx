@@ -16,32 +16,40 @@ export default () => (
     <Header
       name="Rights at Ryanair"
       href="https://verkehr.verdi.de/branchen/luftverkehr/fluggesellschaften/ryanair"
-      navigation={[
-        ['Cabin Crew', '/'],
-        ['Guardians', '/guardians', true],
-        ['News', '/news'],
-      ]}
+      navigation={[['Cabin Crew', '/'], ['Guardians', '/guardians', true], ['News', '/news']]}
     />
 
-    <Text
-      title="Guardians"
-    >
+    <Text title="Guardians">
       <TextHeadline>How it all started</TextHeadline>
 
       <p>
-     Im August 2018 haben die deutschlandweiten ver.di Mitglieder beim Kabinenpersonal Ryanairs ihre Tarifkommission gewählt. Die 9 mutigen Kollegen und Kolleginen sind an den Flughäfen Berlin, Frankfurt, Düsseldorf, Bremen und Köln stationiert. Das Ziel der in ver.di organisierten Beschäftigten ist, per Tarifvertrag existenzsichernde und gesundheitserhaltende Arbeitsbedingungen bei Ryanair in Deutschland einzuführen.
+        Im August 2018 haben die deutschlandweiten ver.di Mitglieder beim Kabinenpersonal Ryanairs
+        ihre Tarifkommission gewählt. Die 9 mutigen Kollegen und Kolleginen sind an den Flughäfen
+        Berlin, Frankfurt, Düsseldorf, Bremen und Köln stationiert. Das Ziel der in ver.di
+        organisierten Beschäftigten ist, per Tarifvertrag existenzsichernde und
+        gesundheitserhaltende Arbeitsbedingungen bei Ryanair in Deutschland einzuführen.
       </p>
 
-     <TextHeadline>Harassment and dismissals</TextHeadline>
+      <TextHeadline>Harassment and dismissals</TextHeadline>
 
       <p>
-      Gewerkschaftliche Organisierung wurde lange offiziell vom Management „untersagt“ und solidarische Aktionen, wie etwa zuletzt mit den streikenden Beschäftigten bei Ryanair in Südeuropa, mit starker Einschüchterung beantwortet. Aufgrund von Erfahrungen und der Historie bei Ryanair kann daher nicht ausgeschlossen werden, dass es zu Einschüchterung, Schikane und sogar Kündigungen gegenüber Mitgliedern der Tarifkommission kommen könnte.
+        Gewerkschaftliche Organisierung wurde lange offiziell vom Management „untersagt“ und
+        solidarische Aktionen, wie etwa zuletzt mit den streikenden Beschäftigten bei Ryanair in
+        Südeuropa, mit starker Einschüchterung beantwortet. Aufgrund von Erfahrungen und der
+        Historie bei Ryanair kann daher nicht ausgeschlossen werden, dass es zu Einschüchterung,
+        Schikane und sogar Kündigungen gegenüber Mitgliedern der Tarifkommission kommen könnte.
       </p>
 
-       <TextHeadline>Supporters</TextHeadline>
+      <TextHeadline>Supporters</TextHeadline>
 
       <p>
-Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeinsam mit ver.di dafür ein, dass Ryanair die grundgesetzlich festgeschriebenen Koalitionsfreiheit einhält. Sie beobachten das Unternehmen hinsichtlich eines unbehinderten Ablaufs der Tarifverhandlungen nach nationalem und europäischem Recht. Und stehen dafür ein, dass die Gewerkschaftsaktivisten und Aktivistinnen keinerlei Nachteile durch ihren Einsatz für Würde und Gerechtigkeit erfahren.      </p>
+        Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeinsam mit
+        ver.di dafür ein, dass Ryanair die grundgesetzlich festgeschriebenen Koalitionsfreiheit
+        einhält. Sie beobachten das Unternehmen hinsichtlich eines unbehinderten Ablaufs der
+        Tarifverhandlungen nach nationalem und europäischem Recht. Und stehen dafür ein, dass die
+        Gewerkschaftsaktivisten und Aktivistinnen keinerlei Nachteile durch ihren Einsatz für Würde
+        und Gerechtigkeit erfahren.
+      </p>
     </Text>
 
     <Guardians
@@ -70,7 +78,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Thorsten Schäfer-Gümbel',
           role: 'Stellvertretender SPD-Bundesvorsitzender',
           quote: `
@@ -78,7 +86,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Bernd Riexinger',
           role: 'Stellvertretender SPD-Bundesvorsitzender',
           quote: `
@@ -86,7 +94,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Arno Klare',
           role: 'Vorsitzender der Partei DIE LINKE',
           quote: `
@@ -94,7 +102,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Peter Feldmann',
           role: 'Oberbürgermeister von Frankfurt',
           quote: `
@@ -102,7 +110,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Hakan Bölükmese',
           role: 'ver.di VL Sprecher Fraport und Mitglied im Aufsichtsrat Fraport',
           quote: `
@@ -110,7 +118,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Behrad Ghofrani',
           role: 'Betriebsratsvorsitzender WISAG, Flughafen Frankfurt',
           quote: `
@@ -118,23 +126,24 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Christine Behle',
           role: 'Bundesvorstand der Gewerkschaft ver.di',
           quote: `
             Ich bin Patin für die ver.di-Tarifkommission bei Ryanair, weil faire Arbeitsbedingungen und Einkommen bei Ryanair längst überfällig sind. Gemeinsam mit anderen Gewerkschaften in ganz Europa wollen wir gute Tarifverträge durchsetzen.
           `
-         },
+        },
 
-         {
+        {
           name: 'Mehdi Nazem Schariflou',
-          role: 'Aufsichtsratsmitglied Fraport, stellv Aufsichtsratsvorsitzender, Betriebsratsvorsitzender der Firma Frasec am Frankfurter Flughafen',
+          role:
+            'Aufsichtsratsmitglied Fraport, stellv Aufsichtsratsvorsitzender, Betriebsratsvorsitzender der Firma Frasec am Frankfurter Flughafen',
           quote: `
               Ich bin Pate für die die ver.di Tarifkommission, weil gute Arbeit auch gerechte Bezahlung verdient.
           `
-         },
+        },
 
-         {
+        {
           name: 'Quadeer Rana',
           role: 'Oberbürgermeister von Frankfurt',
           quote: `
@@ -142,7 +151,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Andreas Rimkus',
           role: 'MdB | SPD-Bundestagsfraktion',
           quote: `
@@ -150,7 +159,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Claudia Amier',
           role: 'Oberbürgermeister von Frankfurt',
           quote: `
@@ -158,15 +167,16 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Devrim Arslan',
-          role: 'Betriebsratsvorsitzender der Fraground GmbH und Mitglied im Aufsichtsrat der Fraport und Fraground GmbH Flughafen Frankfurt',
+          role:
+            'Betriebsratsvorsitzender der Fraground GmbH und Mitglied im Aufsichtsrat der Fraport und Fraground GmbH Flughafen Frankfurt',
           quote: `
             Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil die Würde des Menschen unantastbar ist. Tarifverträge sind der Grundstein für einen fairen Arbeitsmarkt und sorgen für gerechte Arbeitsbedingungen.
           `
         },
 
-         {
+        {
           name: 'Oliver Krischer',
           role: 'MdB, Bundestagsfraktion Bündnis 90/Die Grünen',
           quote: `
@@ -176,13 +186,14 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
 
         {
           name: 'Petra Pollmann',
-          role: 'Betriebsrätin bei der Flughafen Düsseldorf GmbH und Sprecherin der ver.di Vertrauensleute am Flughafen Düsseldorf',
+          role:
+            'Betriebsrätin bei der Flughafen Düsseldorf GmbH und Sprecherin der ver.di Vertrauensleute am Flughafen Düsseldorf',
           quote: `
             Ich bin Patin für die ver.di Tarifkommission bei Ryanair weil Tarifverträge faire Arbeitsbedingungen herstellen. Das Modell Ryanair wirkt seit Jahren auf die gesamte Branche. Mit den Verhandlungen werden die Beschäftigten erstmals auf Augenhöhe wahrgenommen.
           `
         },
 
-         {
+        {
           name: 'Janine Wissler',
           role: 'Fraktionsvorsitzende DIE LINKE im Hessischen Landtag und stv. Parteivorsitzende',
           quote: `
@@ -190,7 +201,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Pascal Meiser',
           role: 'MdB, Fraktion DIE LINKE',
           quote: `
@@ -198,7 +209,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Beate Müller-Gemmeke',
           role: 'MdB, Fraktion Bündnis 90/Die Grünen',
           quote: `
@@ -206,24 +217,19 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
           `
         },
 
-         {
+        {
           name: 'Norbert Schmitt',
           role: 'Abgeordneter des Hessischen Landtags',
           quote: `
             Immer mehr wird darüber bekannt, wie unfair und entwürdigend das Kabinenpersonal von Ryanair behandelt wird. Das entsetzt mich und deshalb habe ich mich entschlossen Pate zu werden. Um zu zeigen, dass die mutigen Mitarbeiterinnen und Mitarbeiter, die gegen eine solche Behandlung protestieren, nicht alleine stehen und Solidarität verdient haben. Mit den Ryanair-Beschäftigten muss endlich fair umgegangenen und das eigentlich selbstverständliche Recht auf ungehinderte Tarifverhandlungen muss voll und ganz anerkannt werden. Einschüchterungen und Schikanen dürfen keinen Platz haben. Die Beschäftigten brauchen endlich eine angemessene Bezahlung und ordentliche Arbeitsbedingen.
           `
-        },
-
-        ]}
+        }
+      ]}
     />
 
     <Footer
       title="Time to change at Ryanair"
-      links={[
-        ['Imprint', ''],
-        ['Contact', ''],
-        ['Data protection', '']
-      ]}
+      links={[['Imprint', ''], ['Contact', ''], ['Data protection', '']]}
     />
   </Layout>
 );

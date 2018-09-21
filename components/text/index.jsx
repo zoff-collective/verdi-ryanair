@@ -8,8 +8,6 @@ export default ({ title, children }) => (
 
     <Title>{title}</Title>
 
-    <div className="content">
-      {children}
-    </div>
+    <div className="content">{children}</div>
   </article>
 );
