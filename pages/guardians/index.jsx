@@ -167,6 +167,14 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
             Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil ich finde, auch in der Luftverkehrsbranche müssen überall faire Arbeitsbedingungen herrschen.
           `
         },
+        
+        {
+          name: 'Petra Pollmann',
+          role: 'Betriebsrätin bei der Flughafen Düsseldorf GmbH und Sprecherin der ver.di Vertrauensleute am Flughafen Düsseldorf',
+          quote: `
+            Ich bin Patin für die ver.di Tarifkommission bei Ryanair weil Tarifverträge faire Arbeitsbedingungen herstellen. Das Modell Ryanair wirkt seit Jahren auf die gesamte Branche. Mit den Verhandlungen werden die Beschäftigten erstmals auf Augenhöhe wahrgenommen.
+          `
+        },
 
          {
           name: 'Janine Wissler',
