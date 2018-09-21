@@ -10,6 +10,7 @@ export default withRSS('https://verkehr.verdi.de/themen/nachrichten/rss', ({ ite
   <Layout>
     <Head>
       <title>News - Time for change at Ryanair</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
 
     <Header
