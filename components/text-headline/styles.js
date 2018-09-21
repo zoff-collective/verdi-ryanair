@@ -12,7 +12,7 @@ export default css`
     line-height: 1.1;
     margin-bottom: 0;
     margin-left: -0.75rem;
-    margin-top: 1rem;
+    margin-top: 1.25rem;
     padding-left: 0.75rem;
     padding-right: 0.25rem;
     position: relative;

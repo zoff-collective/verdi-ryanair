@@ -6,8 +6,8 @@ export default css`
   section {
     background-color: ${colors.blue};
     color: white;
-    padding-bottom: 4rem;
-    padding-top: 4rem;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
   }
 
   ol {
@@ -23,32 +23,31 @@ export default css`
   }
 
   li + li {
-    margin-top: 4.5rem;
+    margin-top: 4rem;
   }
 
   img {
     border-radius: 50%;
-    height: 12rem;
+    height: 13.5rem;
     object-fit: contain;
-    width: 12rem;
+    width: 13.5rem;
   }
 
   .content {
-    margin-left: 1.5rem;
-    width: 75%;
+    margin-left: 3rem;
   }
 
   blockquote {
     font-family: ${fonts.novel.family.semibold};
-    font-size: 1.25rem;
-    line-height: 1.2;
-    margin: 1rem 0 0 0;
+    font-size: 1.35rem;
+    line-height: 1.45;
+    margin: 2rem 0 0 0;
   }
 
   .title {
     font-family: ${fonts.novel.family.black};
     font-size: 1.6rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
     margin-top: 0;
   }
 

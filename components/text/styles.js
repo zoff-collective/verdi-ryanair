@@ -11,6 +11,8 @@ export default css`
     display: flex;
     flex-direction: column;
     font-family: ${fonts.novel.family.semibold};
+    font-feature-settings: normal;
+    font-variant-ligatures: contextual;
     font-size: 1.45rem;
     line-height: 1.5;
     margin-left: auto;
