@@ -47,11 +47,17 @@ export default () => (
       people={[
         {
           name: 'Bettina Wilhelm',
-          role: 'Landesbeauftragte und Mitglied des Aufsichtsrats des Flughafens Bremen',
+          role: 'Landesfrauenbeauftragte und Mitglied des Aufsichtsrats des Flughafens Bremen',
           quote: `
-            Ich bin die Patin für die ver.di-Tarifkomission bei Ryanair, weil
-            Tarifverträge dafür sorgen, dass die Leistung von Beschaäftigten
-            angemessen, transparent und verlässlich bewertet und entlohnt wird.
+            Ich bin Patin für die ver.di-Tarifkommission bei Ryanair, weil Tarifverträge dafür sorgen, dass die Leistung von Beschäftigten angemessen, transparent und verlässlich bewertet und entlohnt wird.
+          `
+        },
+
+        {
+          name: 'Frank Bsirkse',
+          role: 'Vorsitzender der Gewerkschaft ver.di',
+          quote: `
+            Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil sich Arbeitnehmer/innen mit Tarifverträgen besser stellen und die Kolleg/innen bei Ryanair das auch verdient haben.
           `
         },
 
@@ -64,16 +70,13 @@ export default () => (
             angemessen, transparent und verlässlich bewertet und entlohnt wird.
           `
         },
-
-        {
+         {
           name: 'Bettina Wilhelm',
-          role: 'Landesbeauftragte und Mitglied des Aufsichtsrats des Flughafens Bremen',
+          role: 'Landesfrauenbeauftragte und Mitglied des Aufsichtsrats des Flughafens Bremen',
           quote: `
-            Ich bin die Patin für die ver.di-Tarifkomission bei Ryanair, weil
-            Tarifverträge dafür sorgen, dass die Leistung von Beschaäftigten
-            angemessen, transparent und verlässlich bewertet und entlohnt wird.
+            Ich bin Patin für die ver.di-Tarifkommission bei Ryanair, weil Tarifverträge dafür sorgen, dass die Leistung von Beschäftigten angemessen, transparent und verlässlich bewertet und entlohnt wird.
           `
-        }
+        },
       ]}
     />
 
