@@ -1,6 +1,7 @@
 const colors = {
   blue: 'rgb(12, 56, 141)',
-  yellow: 'rgb(254, 244, 55)'
+  yellow: 'rgb(254, 244, 55)',
+  white: 'rgb(255, 255, 255)'
 };
 
 const fonts = {
