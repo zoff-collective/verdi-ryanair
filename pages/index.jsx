@@ -24,8 +24,6 @@ export default () => (
       navigation={[['Cabin Crew', '/', true], ['Guardians', '/guardians'], ['News', '/news']]}
     />
 
-    <Hero title="Time for change at Ryanair" image={require('../static/images/hero.jpg')} />
-
     <Demands
       title="What do we want!"
       groups={[
