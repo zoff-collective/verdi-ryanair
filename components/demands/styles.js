@@ -29,7 +29,7 @@ export default css`
     font-size: 2rem;
     line-height: 1.45;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 0.25rem;
     text-transform: uppercase;
   }
 

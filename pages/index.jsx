@@ -60,7 +60,7 @@ export default () => (
       image={require('../static/images/book-a-date.jpg')}
       title="Want to be part of change at Ryanair?"
       target="https://my-ryanair-cabin-crew-job.typeform.com/to/mkOr7o"
-      label="Book a date"
+      label="Get in touch"
     />
 
     <Quote text="We are a global federation of unions working to improve the lives of aviation and transport sector workers like you." />
@@ -94,7 +94,7 @@ export default () => (
     <Cta
       image={require('../static/images/become-member.jpg')}
       title="To help win lasting change at Ryanair"
-      target="https://my-ryanair-cabin-crew-job.typeform.com/to/mkOr7o"
+      target="https://mitgliedwerden.verdi.de/beitritt/verdi-en"
       label="Become a ver.di member"
     />
 

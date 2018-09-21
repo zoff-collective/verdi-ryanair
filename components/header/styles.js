@@ -11,7 +11,7 @@ export default css`
     justify-content: center;
     margin-bottom: 0;
     margin-top: 0;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
   }
 
   .inner {
@@ -22,7 +22,7 @@ export default css`
 
   .name {
     font-family: ${fonts.novel.family.black};
-    font-size: 2.5rem;
+    font-size: 2.35rem;
     margin-bottom: 0;
     margin-top: 0;
   }

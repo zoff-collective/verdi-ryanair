@@ -8,7 +8,7 @@ export default css`
     background-color: ${colors.blue};
     color: ${colors.yellow};
     display: flex;
-    height: 90vh;
+    height: 88vh;
     overflow: hidden;
     position: relative;
     text-align: center;
