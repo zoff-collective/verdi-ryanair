@@ -64,7 +64,7 @@ export default () => (
       label="Book a date"
     />
 
-    <Quote text="We are a global federation of unions working to improve the lives of aviation and transport sector workers like you." />
+    <Quote text=" Feeling like I'm a number on a spreadsheet. I am the face of the company to the millions who fly Ryanair. I deserve respect. " />
 
     <Text title="We are many!">
             
@@ -81,6 +81,24 @@ export default () => (
       <p>
         For many years, Ryanair didn’t accept unions as negotiation partner and was not willing to negotiate Collective Labour Agreements under national law. But times are changing, and so is Ryanair.
       </p>
+         
+      <TextHeadline>Negotiations</TextHeadline>
+      
+      <p>
+        Over the last few months, cabin crew across Germany and Europe started began telling their story and talking to each other about Ryanair has been moved to begin to change. It helped! Ryanair has said publicly it will recognize workers in unions and commits to negotiate collective labour agreements (CLA’s) with unions for flight crew now. And in Mai 2018 Ryanair offered ver.di a recognition agreement. Negotiations are in process.
+      </p>
+         
+       <TextHeadline>Join our community</TextHeadline>
+      
+      <p>
+        Organized at our union verdi, our goal is to improve working and income conditions through collective labour agreements, ensuring that Ryanair respects national law, workers rights and co-determination of workers in making decisions about workplace issues that affect all of us. And we need you for making that happen. Join our community and become a verdi member!
+       </p>
+         
+       <TextHeadline>You’ll never walk alone</TextHeadline>
+      
+      <p>
+         We are International, we are Cabin Crew United. We will not change Ryanair alone in Germany, to take on a multinational company we believe in a strong multinational approach.  We‘re working internationally closely with our long standing partner unions within the International Transport-Workers Federation (ITF) and European Transport-Workers Federation (ETF) which are the strongest aviation federations in Europe.  
+         Together with our union partners at the ETF and ITF we are running the European Network www.cabincrewunited.org This networks coordinates bases across Europa and ensures that Ryanair can´t pit one base against another.       </p>
             
     </Text>
 
