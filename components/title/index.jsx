@@ -1,8 +1,11 @@
 import styles from './styles';
 
 export default ({ children }) => (
-  <h1>
+  <header>
     <style jsx>{styles}</style>
-    {children}
-  </h1>
+
+    <h1>
+      {children}
+    </h1>
+  </header>
 );
