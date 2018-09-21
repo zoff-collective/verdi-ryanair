@@ -8,9 +8,9 @@ export default css`
   }
 
   .content {
-    font-family: ${fonts.novel.family.bold};
-    font-size: 1.4rem;
-    line-height: 1.45;
+    font-family: ${fonts.novel.family.semibold};
+    font-size: 1.45rem;
+    line-height: 1.5;
     margin-left: auto;
     margin-right: auto;
     max-width: ${textMaxWidth};

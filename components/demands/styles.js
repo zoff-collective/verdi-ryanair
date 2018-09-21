@@ -14,27 +14,28 @@ export default css`
 
   .content {
     display: inline-block;
-    transform: rotate(-12deg);
+    transform: rotate(-10deg);
   }
 
   .title {
     font-family: ${fonts.novel.family.extraBlack};
-    font-size: 6rem;
+    font-size: 6.2rem;
     margin-bottom: 0;
     margin-top: 0;
   }
 
   .group-title {
-    font-family: ${fonts.novel.family.extraBlack};
-    font-size: 3rem;
+    font-family: ${fonts.novel.family.ultraBlack};
+    font-size: 2rem;
     line-height: 1.45;
     margin-bottom: 0;
     margin-top: 0;
+    text-transform: uppercase;
   }
 
   .demand-text {
-    font-family: ${fonts.novel.family.extraBlack};
-    font-size: 1.6rem;
+    font-family: ${fonts.novel.family.bold};
+    font-size: 1.55rem;
     line-height: 1.45;
     margin-bottom: 0;
     margin-top: 0;

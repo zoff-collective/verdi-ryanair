@@ -10,7 +10,7 @@ export default css`
     display: flex;
     flex-direction: column;
     font-family: ${fonts.novel.family.extraBlack};
-    font-size: 3rem;
+    font-size: 2.9rem;
     justify-content: center;
     overflow: hidden;
     padding-bottom: 8rem;

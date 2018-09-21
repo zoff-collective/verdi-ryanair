@@ -16,8 +16,8 @@ export default css`
 
   .title {
     display: inline-block;
-    font-family: ${fonts.novel.family.ultraBlack};
-    font-size: 8rem;
+    font-family: ${fonts.novel.family.extraBlack};
+    font-size: 8.1rem;
     line-height: 1;
     margin: 0 auto;
     max-width: 1100px;

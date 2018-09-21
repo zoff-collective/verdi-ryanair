@@ -6,6 +6,7 @@ export default css`
   h2 {
     display: inline-block;
     font-family: ${fonts.novel.family.black};
+    font-size: 2rem;
     margin-bottom: 0;
     margin-top: 0;
     position: relative;

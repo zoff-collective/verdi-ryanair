@@ -11,11 +11,11 @@ export default css`
   }
 
   .title {
-    font-family: ${fonts.novel.family.black};
-    font-size: 1.6rem;
+    font-family: ${fonts.novel.family.extraBlack};
+    font-size: 1.9rem;
     line-height: 1.2;
     margin: 0 auto;
-    max-width: 12rem;
+    max-width: 14rem;
     text-align: center;
     transform: rotate(-15deg);
   }

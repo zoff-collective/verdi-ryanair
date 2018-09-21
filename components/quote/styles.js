@@ -11,8 +11,8 @@ export default css`
   }
 
   blockquote {
-    font-family: ${fonts.novel.family.black};
-    font-size: 3rem;
+    font-family: ${fonts.novel.family.extraBlack};
+    font-size: 2.7rem;
     line-height: 1.4;
     margin: 0 auto;
     max-width: ${textMaxWidth};
