@@ -1,5 +1,6 @@
 import Cta from '../components/cta';
 import Demands from '../components/demands';
+import Facts from '../components/facts';
 import Footer from '../components/footer';
 import Header from '../components/header';
 import Hero from '../components/hero';
@@ -90,6 +91,39 @@ export default () => (
         ipsum dolor sit amet.
       </p>
     </Text>
+
+    <Facts
+      title="Facts"
+      items={[
+        {
+          number: '65%',
+          text: `
+            of Ryanair’s cabine crew say theer is too much pressure on sales targets
+          `
+        },
+
+        {
+          number: '65%',
+          text: `
+            of Ryanair’s cabine crew say theer is too much pressure on sales targets
+          `
+        },
+
+        {
+          number: '65%',
+          text: `
+            of Ryanair’s cabine crew say theer is too much pressure on sales targets
+          `
+        },
+
+        {
+          number: '65%',
+          text: `
+            of Ryanair’s cabine crew say theer is too much pressure on sales targets
+          `
+        },
+      ]}
+    />
 
     <Cta
       image={require('../static/images/become-member.jpg')}
