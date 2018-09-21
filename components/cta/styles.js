@@ -13,8 +13,8 @@ export default css`
     font-size: 2.9rem;
     justify-content: center;
     overflow: hidden;
-    padding-bottom: 8rem;
-    padding-top: 8rem;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
     position: relative;
   }
 
@@ -26,7 +26,7 @@ export default css`
   }
 
   .button-container {
-    margin-top: 2.5rem;
+    margin-top: 5rem;
   }
 
   .title,

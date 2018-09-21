@@ -1,3 +1,4 @@
+import Footer from '../../components/footer';
 import Header from '../../components/header';
 import Layout from '../../components/layout';
 import News from '../../components/news';
@@ -18,6 +19,15 @@ export default withRSS(
       />
 
       {items && <News title="Latest News" items={items} />}
+
+      <Footer
+        title="Time to change at Ryanair"
+        links={[
+          ['Imprint', ''],
+          ['Contact', ''],
+          ['Data protection', '']
+        ]}
+      />
     </Layout>
   )
 );

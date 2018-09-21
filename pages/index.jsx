@@ -185,6 +185,13 @@ export default () => (
       label="Become a ver.di member"
     />
 
-    <Footer title="Time to change at Ryanair" />
+    <Footer
+      title="Time to change at Ryanair"
+      links={[
+        ['Imprint', ''],
+        ['Contact', ''],
+        ['Data protection', '']
+      ]}
+    />
   </Layout>
 );

@@ -211,6 +211,13 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
         ]}
     />
 
-    <Footer title="Time to change at Ryanair" />
+    <Footer
+      title="Time to change at Ryanair"
+      links={[
+        ['Imprint', ''],
+        ['Contact', ''],
+        ['Data protection', '']
+      ]}
+    />
   </Layout>
 );

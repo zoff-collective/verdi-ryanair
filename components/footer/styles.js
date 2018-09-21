@@ -3,19 +3,20 @@ import css from 'styled-jsx/css';
 import { colors, fonts } from '../../tokens';
 
 export default css`
-  footer {
+  .inner {
     background-color: ${colors.yellow};
     color: ${colors.blue};
-    padding-bottom: 3rem;
-    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
     position: relative;
+    width: 100%;
   }
 
   .logo {
-    bottom: -60%;
+    bottom: -8.5rem;
     height: 15rem;
     position: absolute;
-    right: 0;
+    right: 3.5rem;
     width: 15rem;
   }
 
@@ -27,5 +28,19 @@ export default css`
     max-width: 14rem;
     text-align: center;
     transform: rotate(-15deg);
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12rem;
+    padding-bottom: 5rem;
+  }
+
+  a {
+    color: ${colors.blue};
+    font-family: ${fonts.novel.family.black};
+    font-size: 1.8rem;
+    text-decoration: none;
   }
 `;
