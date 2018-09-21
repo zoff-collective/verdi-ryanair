@@ -178,7 +178,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
 
          {
           name: 'Janine Wissler',
-          role: 'Betriebsrätin bei der Flughafen Düsseldorf GmbH und Sprecherin der ver.di Vertrauensleute am Flughafen Düsseldorf',
+          role: 'Fraktionsvorsitzende DUE LINKE im Hessischen Landtag und stv. Parteivorsitzende',
           quote: `
             Ich bin Patin, weil ich solidarisch bin mit den Beschäftigten bei Ryanair und den anderen Fluglinien. Ryanair bedroht durch Lohndumping und seinen Umgang mit den Beschäftigten die Standards in der ganzen Luftverkehrsbranche. Deshalb muss endlich ein vernünftiger Tarifvertrag her.
           `
