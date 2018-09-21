@@ -39,7 +39,7 @@ export default css`
 
   blockquote {
     font-family: ${fonts.novel.family.semibold};
-    font-size: 1.35rem;
+    font-size: 1.45rem;
     line-height: 1.45;
     margin: 2rem 0 0 0;
   }
