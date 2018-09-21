@@ -153,14 +153,6 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
         },
 
          {
-          name: 'Peter Feldmann',
-          role: 'Betriebsratsvorsitzende des gemeinsamen Betriebes der Fraport AG und der FRA-Vorfeldkontrolle GmbH, Flughafen Frankfurt, ver.di Bundesfachgruppenvorsitzende Luftverkehr',
-          quote: `
-            Ich bin Patin für die ver.di Tarifkommission bei Ryanair, weil es längst überfällig ist, den höchst prekären Arbeitsbedingungen ein Ende zu bereiten. Es muss Schluss sein mit nicht existenzsichernde Löhnen, mit der Nichteinhaltung von Sozial- und Sicherheitsstandards sowie dem massiven Einsatz von Leiharbeitnehmern.
-          `
-        },
-
-         {
           name: 'Devrim Arslan',
           role: 'Betriebsratsvorsitzender der Fraground GmbH und Mitglied im Aufsichtsrat der Fraport und Fraground GmbH Flughafen Frankfurt',
           quote: `
