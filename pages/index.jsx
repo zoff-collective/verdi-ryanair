@@ -87,9 +87,9 @@ export default () => (
         },
 
         {
-          number: '65%',
+          number: '40%',
           text: `
-            of Ryanair’s cabine crew say theer is too much pressure on sales targets
+            of Ryanair’s cabine crew feel stresses about getting sick
           `
         },
 
@@ -101,9 +101,9 @@ export default () => (
         },
 
         {
-          number: '65%',
+          number: '40%',
           text: `
-            of Ryanair’s cabine crew say theer is too much pressure on sales targets
+            of Ryanair’s cabine crew feel stresses about getting sick
           `
         },
       ]}
