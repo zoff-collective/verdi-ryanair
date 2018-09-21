@@ -4,26 +4,22 @@ import { colors, fonts } from '../../tokens';
 
 export default css`
   h2 {
-    display: inline-block;
+    box-decoration-break: clone;
+    box-shadow: inset 0px -20px ${colors.yellow};
+    display: inline;
     font-family: ${fonts.novel.family.black};
     font-size: 2rem;
+    line-height: 1.1;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-left: -0.75rem;
+    margin-top: 1rem;
+    padding-left: 0.75rem;
+    padding-right: 0.25rem;
     position: relative;
   }
 
   span {
     position: relative;
     z-index: 2;
-  }
-
-  h2:before {
-    background-color: ${colors.yellow};
-    bottom: -2.5%;
-    content: '';
-    left: -10px;
-    position: absolute;
-    height: 50%;
-    width: calc(100% + 20px);
   }
 `;

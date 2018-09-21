@@ -8,6 +8,8 @@ export default css`
   }
 
   .content {
+    display: flex;
+    flex-direction: column;
     font-family: ${fonts.novel.family.semibold};
     font-size: 1.45rem;
     line-height: 1.5;
