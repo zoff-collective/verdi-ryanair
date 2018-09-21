@@ -8,7 +8,7 @@ export default ({ label, title, target }) => (
 
     <h2 className="title">{title}</h2>
 
-    <Button href={target}>
+    <Button href={target} size="big">
       {label}
     </Button>
   </section>
