@@ -1,13 +1,13 @@
 import css from 'styled-jsx/css';
 
 export default css`
-  *,
-  *::after,
-  *::before {
+  :global(*),
+  :global(*::after),
+  :global(*::before) {
     box-sizing: border-box;
   }
 
-  body {
+  :global(body) {
     margin: 0;
     padding: 0;
   }
