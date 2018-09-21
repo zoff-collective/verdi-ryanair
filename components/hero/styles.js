@@ -8,16 +8,22 @@ export default css`
     background-color: ${colors.blue};
     color: ${colors.yellow};
     display: flex;
-    height: 88vh;
+    height: 75vh;
     overflow: hidden;
     position: relative;
     text-align: center;
   }
 
+  @media ${mq.tablet} {
+    section {
+      height: 88vh;
+    }
+  }
+
   .title {
     display: inline-block;
     font-family: ${fonts.novel.family.extraBlack};
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 1;
     margin: 0 auto;
     max-width: 1100px;
@@ -25,6 +31,12 @@ export default css`
   }
 
   @media ${mq.tablet} {
+    .title {
+      font-size: 5rem;
+    }
+  }
+
+  @media ${mq.desktop} {
     .title {
       font-size: 8.1rem;
     }
