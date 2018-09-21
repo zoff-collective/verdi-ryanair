@@ -15,7 +15,8 @@ const getItems = json => json.rss[0].channel[0].item;
 export default (source, Child) =>
   class extends Component {
     static async getInitialProps() {
-      const res = await window.fetch(source);
+      // eslint-disable-next-line no-undef
+      const res = await fetch(source);
       const str = await res.text();
       const obj = xmlStringToJSON(str);
       const items = getItems(obj);
