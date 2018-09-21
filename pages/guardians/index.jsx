@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import Footer from '../../components/footer';
 import Guardians from '../../components/guardians';
 import Header from '../../components/header';
@@ -7,6 +9,10 @@ import TextHeadline from '../../components/text-headline';
 
 export default () => (
   <Layout>
+    <Head>
+      <title>Guardians - Time for change at Ryanair</title>
+    </Head>
+
     <Header
       name="Rights at Ryanair"
       href="https://verkehr.verdi.de/branchen/luftverkehr/fluggesellschaften/ryanair"
@@ -167,7 +173,7 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
             Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil ich finde, auch in der Luftverkehrsbranche müssen überall faire Arbeitsbedingungen herrschen.
           `
         },
-        
+
         {
           name: 'Petra Pollmann',
           role: 'Betriebsrätin bei der Flughafen Düsseldorf GmbH und Sprecherin der ver.di Vertrauensleute am Flughafen Düsseldorf',

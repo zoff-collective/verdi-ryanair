@@ -27,7 +27,7 @@ export default css`
     margin: 0 auto;
     max-width: 14rem;
     text-align: center;
-    transform: rotate(-15deg);
+    transform: rotate(-10deg);
   }
 
   nav {

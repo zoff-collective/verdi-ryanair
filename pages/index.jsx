@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import Cta from '../components/cta';
 import Demands from '../components/demands';
 import Facts from '../components/facts';
@@ -11,6 +13,10 @@ import TextHeadline from '../components/text-headline';
 
 export default () => (
   <Layout>
+    <Head>
+      <title>Time for change at Ryanair</title>
+    </Head>
+
     <Header
       name="Rights at Ryanair"
       href="https://verkehr.verdi.de/branchen/luftverkehr/fluggesellschaften/ryanair"
