@@ -153,14 +153,6 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
         },
 
          {
-          name: 'Peter Feldmann',
-          role: 'Betriebsratsvorsitzende des gemeinsamen Betriebes der Fraport AG und der FRA-Vorfeldkontrolle GmbH, Flughafen Frankfurt, ver.di Bundesfachgruppenvorsitzende Luftverkehr',
-          quote: `
-            Ich bin Patin für die ver.di Tarifkommission bei Ryanair, weil es längst überfällig ist, den höchst prekären Arbeitsbedingungen ein Ende zu bereiten. Es muss Schluss sein mit nicht existenzsichernde Löhnen, mit der Nichteinhaltung von Sozial- und Sicherheitsstandards sowie dem massiven Einsatz von Leiharbeitnehmern.
-          `
-        },
-
-         {
           name: 'Devrim Arslan',
           role: 'Betriebsratsvorsitzender der Fraground GmbH und Mitglied im Aufsichtsrat der Fraport und Fraground GmbH Flughafen Frankfurt',
           quote: `
@@ -175,10 +167,18 @@ Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeins
             Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil ich finde, auch in der Luftverkehrsbranche müssen überall faire Arbeitsbedingungen herrschen.
           `
         },
+        
+        {
+          name: 'Petra Pollmann',
+          role: 'Betriebsrätin bei der Flughafen Düsseldorf GmbH und Sprecherin der ver.di Vertrauensleute am Flughafen Düsseldorf',
+          quote: `
+            Ich bin Patin für die ver.di Tarifkommission bei Ryanair weil Tarifverträge faire Arbeitsbedingungen herstellen. Das Modell Ryanair wirkt seit Jahren auf die gesamte Branche. Mit den Verhandlungen werden die Beschäftigten erstmals auf Augenhöhe wahrgenommen.
+          `
+        },
 
          {
           name: 'Janine Wissler',
-          role: 'Betriebsrätin bei der Flughafen Düsseldorf GmbH und Sprecherin der ver.di Vertrauensleute am Flughafen Düsseldorf',
+          role: 'Fraktionsvorsitzende DIE LINKE im Hessischen Landtag und stv. Parteivorsitzende',
           quote: `
             Ich bin Patin, weil ich solidarisch bin mit den Beschäftigten bei Ryanair und den anderen Fluglinien. Ryanair bedroht durch Lohndumping und seinen Umgang mit den Beschäftigten die Standards in der ganzen Luftverkehrsbranche. Deshalb muss endlich ein vernünftiger Tarifvertrag her.
           `
