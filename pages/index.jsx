@@ -71,7 +71,8 @@ export default () => (
       <p>
         We are at every German Ryanair base. We are with Ver.di. With 2 million members Ver.di is the biggest service trade union in the world. The name Ver.di stands for Vereinte Dienstleistungsgewerkschaft – United Services Union. We, ver.di, are one union for all. We consolidate the interest of our members – and by working together empower each of us. We create unity out of diversity. 
       </p>
-           
+
+      <Quote text=" Having to pay for food and water at 35,000 feet.  It’s just ridiculous." />
       
        <Text title="How do we win!">
       
