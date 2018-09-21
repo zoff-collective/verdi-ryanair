@@ -1,6 +1,6 @@
 import css from 'styled-jsx/css';
 
-import { colors, fonts } from '../../tokens';
+import { colors, fonts, mq } from '../../tokens';
 
 export default css`
   section {
@@ -17,11 +17,17 @@ export default css`
   .title {
     display: inline-block;
     font-family: ${fonts.novel.family.extraBlack};
-    font-size: 8.1rem;
+    font-size: 5rem;
     line-height: 1;
     margin: 0 auto;
     max-width: 1100px;
     position: relative;
+  }
+
+  @media ${mq.tablet} {
+    .title {
+      font-size: 8.1rem;
+    }
   }
 
   img {

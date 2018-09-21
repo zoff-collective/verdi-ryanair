@@ -1,6 +1,6 @@
 import css from 'styled-jsx/css';
 
-import { colors, fonts, textMaxWidth } from '../../tokens';
+import { colors, fonts, mq, textMaxWidth } from '../../tokens';
 
 export default css`
   section {
@@ -10,12 +10,19 @@ export default css`
     display: flex;
     flex-direction: column;
     font-family: ${fonts.novel.family.extraBlack};
-    font-size: 2.9rem;
+    font-size: 2rem;
     justify-content: center;
     overflow: hidden;
-    padding-bottom: 6rem;
-    padding-top: 6rem;
+    padding: 4rem 1.5rem;
     position: relative;
+  }
+
+  @media ${mq.tablet} {
+    section {
+      font-size: 2.9rem;
+      padding-bottom: 6rem;
+      padding-top: 6rem;
+    }
   }
 
   .title {
@@ -26,7 +33,13 @@ export default css`
   }
 
   .button-container {
-    margin-top: 5rem;
+    margin-top: 3rem;
+  }
+
+  @media ${mq.tablet} {
+    .button-container {
+      margin-top: 5rem;
+    }
   }
 
   .title,
@@ -37,9 +50,11 @@ export default css`
   img {
     height: auto;
     left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: contain;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
   }
 `;

@@ -15,6 +15,19 @@ const fonts = {
   }
 };
 
+const SCREEN_SIZES = [
+  ['phone', 400],
+  ['tabletPortrait', 767],
+  ['tablet', 820],
+  ['desktop', 1270],
+  ['desktopWide', 1590]
+];
+
+const mq = SCREEN_SIZES.reduce((acc, [name, size]) => {
+  acc[name] = `only screen and (min-width: ${size}px)`;
+  return acc;
+}, {});
+
 const textMaxWidth = '940px';
 
-export { colors, fonts, textMaxWidth };
+export { colors, fonts, mq, textMaxWidth };
