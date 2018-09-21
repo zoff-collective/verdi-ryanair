@@ -21,7 +21,7 @@ export default css`
 
   .title {
     font-family: ${fonts.novel.family.black};
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-bottom: 0;
     margin-top: 0;
   }
@@ -37,7 +37,7 @@ export default css`
 
   .text {
     font-family: ${fonts.novel.family.bold};
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.45;
     margin-bottom: 2.5rem;
   }
