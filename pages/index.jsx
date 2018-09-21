@@ -201,13 +201,13 @@ export default () => (
     <Cta
       image={require('../static/images/become-member.jpg')}
       title="To help win lasting change at Ryanair"
-      target="https://my-ryanair-cabin-crew-job.typeform.com/to/mkOr7o"
+      target="https://mitgliedwerden.verdi.de/beitritt/verdi"
       label="Become a ver.di member"
     />
 
     <Footer
       title="Time to change at Ryanair"
-      links={[['Imprint', ''], ['Contact', ''], ['Data protection', '']]}
+      links={[['Imprint', 'https://www.verdi.de/impressum'], ['Contact', 'https://verkehr.verdi.de/kontakt'], ['Data protection', 'https://www.verdi.de/impressum/++co++1e7cc50a-2b44-11e3-af58-52540059119e']]}
     />
   </Layout>
 );
