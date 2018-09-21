@@ -10,9 +10,9 @@ export default withRSS(
       <Header
         name="Rights at Ryanair"
         navigation={[
-          ['Members', '/'],
+          ['Cabin Crew', '/'],
           ['Guardians', '/guardians'],
-          ['Press', '/press', true],
+          ['News', '/news', true],
         ]}
       />
 

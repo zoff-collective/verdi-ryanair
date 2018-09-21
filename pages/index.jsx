@@ -12,9 +12,9 @@ export default () => (
     <Header
       name="Rights at Ryanair"
       navigation={[
-        ['Members', '/', true],
+        ['Cabin Crew', '/', true],
         ['Guardians', '/guardians'],
-        ['Press', '/press'],
+        ['News', '/news'],
       ]}
     />
 
