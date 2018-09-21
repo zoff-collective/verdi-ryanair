@@ -28,8 +28,9 @@ export default css`
 
   img {
     border-radius: 50%;
-    height: auto;
-    width: 25%;
+    height: 12rem;
+    object-fit: contain;
+    width: 12rem;
   }
 
   .content {
