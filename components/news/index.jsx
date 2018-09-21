@@ -12,11 +12,12 @@ export default ({ title, items }) => (
     <Title>{title}</Title>
 
     <ol>
-      {items.map(({ itemTitle, description, link, date }) => (
-        <li key={getText(itemTitle)}>
+      {/* eslint-disable-next-line no-shadow */}
+      {items.map(({ title, description, link, date }) => (
+        <li key={getText(title)}>
           <h3 className="title">
             <small className="date">{getText(date)}</small>
-            {getText(itemTitle)}
+            {getText(title)}
           </h3>
 
           <p className="text">{getText(description)}</p>
