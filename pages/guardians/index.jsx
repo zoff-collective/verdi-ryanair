@@ -62,20 +62,17 @@ export default () => (
         },
 
         {
-          name: 'Bettina Wilhelm',
-          role: 'Landesbeauftragte und Mitglied des Aufsichtsrats des Flughafens Bremen',
+          name: 'Cansel Kiziltepe',
+          role: 'Mitglied des Deutschen Bundestages',
           quote: `
-            Ich bin die Patin für die ver.di-Tarifkomission bei Ryanair, weil
-            Tarifverträge dafür sorgen, dass die Leistung von Beschaäftigten
-            angemessen, transparent und verlässlich bewertet und entlohnt wird.
+            Ich bin Patin für ver.di Tarifkommission bei Ryanair, weil schnell faire Arbeitsbedingungen für Flugbegleiter*innen geschaffen werden müssen..
           `
         },
          {
-          name: 'Bettina Wilhelm',
-          role: 'Landesfrauenbeauftragte und Mitglied des Aufsichtsrats des Flughafens Bremen',
+          name: 'Thorsten Schäfer-Gümbel',
+          role: 'Stellvertretender SPD-Bundesvorsitzender',
           quote: `
-            Ich bin Patin für die ver.di-Tarifkommission bei Ryanair, weil Tarifverträge dafür sorgen, dass die Leistung von Beschäftigten angemessen, transparent und verlässlich bewertet und entlohnt wird.
-          `
+            Ich unterstütze die Gewerkschaften bei ihren Tarifverhandlungen mit Ryanair, weil Löhne und Arbeitsbedingungen bei uns nicht einseitig festgelegt sondern zwischen den Tarifparteien fair ausgehandelt werden. Die Geltendmachung von Arbeitnehmerinteressen ist geschützt, der Zusammenschluss in Gewerkschaften und Verbänden und der Arbeitskampf haben hier Verfassungsrang. Auch Unternehmen wie Ryanair, die Dumpinglöhne, prekäre Beschäftigung und Druck auf Arbeitnehmerinnen und Arbeitnehmer zum Geschäftsmodell gemacht haben, müssen wissen: Die SPD ist in dieser Frage nicht neutral sondern klar auf der Seite der Beschäftigten.          `
         },
       ]}
     />
