@@ -64,14 +64,50 @@ export default () => (
       target="https://my-ryanair-cabin-crew-job.typeform.com/to/mkOr7o"
       label="Book a date"
     />
+    
+     <Quote text="Feeling like I'm a number on a spreadsheet. I am the face of the company to the millions who fly Ryanair. I deserve respect." />
+
 
     <Text title="We are many!">
       <p>
         We are at every German Ryanair base. We are with Ver.di. With 2 million members Ver.di is the biggest service trade union in the world. The name Ver.di stands for Vereinte Dienstleistungsgewerkschaft – United Services Union. We, ver.di, are one union for all. We consolidate the interest of our members – and by working together empower each of us. We create unity out of diversity. 
       </p>
     </Text>
+    
+     <Quote text=" Having to pay for food and water at 35,000 feet. It’s just ridiculous." />
+    
+        <Facts
+      title="Facts"
+      items={[
+        {
+          number: '65%',
+          text: `
+            of Ryanair’s cabine crew say theer is too much pressure on sales targets
+          `
+        },
 
-    <Quote text="Feeling like I'm a number on a spreadsheet. I am the face of the company to the millions who fly Ryanair. I deserve respect." />
+        {
+          number: '40%',
+          text: `
+            of Ryanair’s cabine crew feel stresses about getting sick
+          `
+        },
+
+        {
+          number: '65%',
+          text: `
+            of Ryanair’s cabine crew say theer is too much pressure on sales targets
+          `
+        },
+
+        {
+          number: '40%',
+          text: `
+            of Ryanair’s cabine crew feel stresses about getting sick
+          `
+        },
+      ]}
+    />
 
     <Text title="How do we win!">
       <TextHeadline>Times are changing</TextHeadline>
@@ -100,40 +136,38 @@ export default () => (
       </p>
     </Text>
 
-    <Quote text=" Having to pay for food and water at 35,000 feet. It’s just ridiculous." />
+    <Quote text=" There’s way too much pressure around sales targets. Cabin crew jobs should be about safety first, not sales! " />
 
-    <Facts
-      title="Facts"
-      items={[
-        {
-          number: '65%',
-          text: `
-            of Ryanair’s cabine crew say theer is too much pressure on sales targets
-          `
-        },
+     <Text title="Membership">
+     
+      <p>
+        Individual Protections and Security that ver.di cabin crew members benefit from….
+      
+      </p>
+      
+       <TextHeadline>Legal rights derived from collective agreements</TextHeadline>
 
-        {
-          number: '65%',
-          text: `
-            of Ryanair’s cabine crew say theer is too much pressure on sales targets
-          `
-        },
+      <p>
+        ver.di members employed in companies subject to collective agreements enjoy the protection offered by such agreements. And they receive support when they have to enforce their rights. Non-members can only hope that the employer grants collectively agreed payments – they do not have any legal claim to them.
+      </p>
 
-        {
-          number: '65%',
-          text: `
-            of Ryanair’s cabine crew say theer is too much pressure on sales targets
-          `
-        },
+      <TextHeadline>Competent legal advice and representation</TextHeadline>
 
-        {
-          number: '65%',
-          text: `
-            of Ryanair’s cabine crew say theer is too much pressure on sales targets
-          `
-        },
-      ]}
-    />
+      <p>
+        An important service offered by ver.di is the provision of legal advice. Whether labour, or social law is involved, competent advisors are available to help members. And if a legal dispute arises, legal specialists offer not only advice but also comprehensive, free-of-charge legal protection – only for members, of course. ver.di legal protection even covers representation in court, if necessary. Some unions claim to provide legal support, but there is no other Cabin Crew Union, which provides even close to the same protection and quality as ver.di
+      </p>
+
+       <TextHeadline>Strike pay during industrial disputes</TextHeadline>
+
+      <p>
+        Sometimes collective bargaining grinds to a halt or employers try to force through their own point of view and industrial action becomes unavoidable. As employers do not continue to pay wages during strikes or lockouts, ver.di intervenes to help its members, providing strike pay to help them avoid financial hardship.
+      </p>
+
+       <TextHeadline>Membership fee is 1% of your regular monthly income.</TextHeadline>
+
+      <p>
+        This means out of your fixed basic pay (and, if available, fixed rank allowance). If you are paid by block hours only than you have to multiply your block hour rate with 65 for calculating the monthly income. Those who have more, pay more – those with less money pay less. Our members subscribe one percent of their basic gross income to support the union and enable it to operate effectively. And the jobless pay a reduced subscription. The subscription is also tax-deductible.      </p>
+    </Text>
 
     <Cta
       image={require('../static/images/become-member.jpg')}
