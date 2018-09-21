@@ -8,9 +8,10 @@ export default ({ title, groups }) => (
       <h2 className="title">{title}</h2>
 
       <ul className="list">
-        {groups.map(({ groupTitle, items }) => (
-          <li key={groupTitle}>
-            <h3 className="group-title">{groupTitle}</h3>
+        {/* eslint-disable-next-line no-shadow */}
+        {groups.map(({ title, items }) => (
+          <li key={title}>
+            <h3 className="group-title">{title}</h3>
             {items.map(demand => (
               <p key={demand} className="demand-text">
                 {demand}
