@@ -1,6 +1,6 @@
 import css from 'styled-jsx/css';
 
-import { colors, fonts } from '../../tokens';
+import { colors, fonts, mq } from '../../tokens';
 
 export default css`
   .inner {
@@ -13,11 +13,23 @@ export default css`
   }
 
   .logo {
-    bottom: -8.5rem;
-    height: 15rem;
+    bottom: -7rem;
+    height: 8rem;
+    left: 50%;
     position: absolute;
-    right: 3.5rem;
-    width: 15rem;
+    transform: translateX(-50%);
+    width: 8rem;
+  }
+
+  @media ${mq.tablet} {
+    .logo {
+      bottom: -8.5rem;
+      height: 15rem;
+      left: auto;
+      transform: none;
+      right: 3.5rem;
+      width: 15rem;
+    }
   }
 
   .title {
@@ -31,16 +43,30 @@ export default css`
   }
 
   nav {
+    align-items: center;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     margin-top: 12rem;
     padding-bottom: 5rem;
+  }
+
+  @media ${mq.tablet} {
+    nav {
+      flex-direction: row;
+      justify-content: space-around;
+    }
   }
 
   a {
     color: ${colors.blue};
     font-family: ${fonts.novel.family.black};
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-decoration: none;
+  }
+
+  @media ${mq.tablet} {
+    a {
+      font-size: 1.8rem;
+    }
   }
 `;
