@@ -1,3 +1,5 @@
+import 'core-js';
+
 import styles from './styles';
 
 export default ({ text }) => (

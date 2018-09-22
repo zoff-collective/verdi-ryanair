@@ -16,6 +16,7 @@
   "author": "Gustav Pursche <pursche@posteo.de>",
   "license": "MIT",
   "dependencies": {
+    "core-js": "^2.5.7",
     "isomorphic-fetch": "^2.2.1",
     "next": "^7.0.0",
     "next-images": "^1.0.0",
