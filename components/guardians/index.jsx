@@ -12,8 +12,6 @@ export default ({ people }) => (
           <img
             src={require(`../../static/images/guardians/${name.replace(' ', '_')}.jpg`)}
             alt={`Portrait of ${name}`}
-            height="100"
-            width="100"
           />
 
           <div className="content">

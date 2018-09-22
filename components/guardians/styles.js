@@ -29,6 +29,7 @@ export default css`
   img {
     border-radius: 50%;
     display: block;
+    flex-grow: 1;
     height: 13.5rem;
     object-fit: contain;
     width: 13.5rem;
