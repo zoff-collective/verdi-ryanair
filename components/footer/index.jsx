@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import styles from './styles';
 
 export default ({ title, links }) => (
@@ -25,9 +23,9 @@ export default ({ title, links }) => (
     {links && (
       <nav>
         {links.map(([label, href]) => (
-          <Link key={label} href={href}>
-            <a>{label}</a>
-          </Link>
+          <a key={label} href={href}>
+            {label}
+          </a>
         ))}
       </nav>
     )}

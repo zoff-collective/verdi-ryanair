@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import styles from './styles';
 
 export default ({ items }) => (
@@ -8,11 +6,7 @@ export default ({ items }) => (
 
     {items.map(([text, url, active = false]) => (
       <li key={url}>
-        {!active && (
-          <Link href={url}>
-            <a>{text}</a>
-          </Link>
-        )}
+        {!active && <a href={url}>{text}</a>}
 
         {active && <span>{text}</span>}
       </li>
