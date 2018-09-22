@@ -20,7 +20,7 @@ const SCREEN_SIZES = [
   ['phone', 400],
   ['tabletPortrait', 767],
   ['tablet', 820],
-  ['desktop', 1270],
+  ['desktop', 1200],
   ['desktopWide', 1590]
 ];
 

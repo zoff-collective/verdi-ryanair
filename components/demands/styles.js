@@ -65,10 +65,24 @@ export default css`
 
   .demand-text {
     font-family: ${fonts.novel.family.bold};
-    font-size: 1.55rem;
+    font-size: 1.3rem;
     line-height: 1.45;
     margin-bottom: 0;
     margin-top: 0;
+    padding-right: 0.5rem;
+  }
+
+  @media ${mq.phone} {
+    .demand-text {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media ${mq.tablet} {
+    .demand-text {
+      font-size: 1.55rem;
+      padding-right: 0;
+    }
   }
 
   .list {

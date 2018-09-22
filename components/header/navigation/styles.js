@@ -9,17 +9,29 @@ export default css`
     justify-content: space-around;
     list-style: none;
     margin-bottom: 0;
-    margin-left: 3.25rem;
+    margin-left: 0;
     margin-top: 0.45rem;
     padding-left: 0;
+  }
+
+  @media ${mq.phone} {
+    ul {
+      margin-left: 3.25rem;
+    }
   }
 
   @media ${mq.tablet} {
     ul {
       align-items: center;
       justify-content: center;
-      margin-left: 14rem;
+      margin-left: 5rem;
       margin-top: 0;
+    }
+  }
+
+  @media ${mq.dektop} {
+    ul {
+      margin-left: 14rem;
     }
   }
 
@@ -28,6 +40,12 @@ export default css`
   }
 
   @media ${mq.tablet} {
+    li + li {
+      margin-left: 1rem;
+    }
+  }
+
+  @media ${mq.desktop} {
     li + li {
       margin-left: 3rem;
     }
@@ -43,6 +61,13 @@ export default css`
   }
 
   @media ${mq.tablet} {
+    a,
+    span {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media ${mq.desktop} {
     a,
     span {
       font-size: 1.9rem;
