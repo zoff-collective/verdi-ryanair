@@ -219,7 +219,7 @@ export default () => (
     
      <Quote text=" There’s way too much pressure around sales targets. Cabin crew jobs should be about safety first, not sales! " />
 
-    <Text title="Protections and Security">
+    <Text title="Membership">
 
       <TextHeadline>Legal rights in our Collective Labour Agreements</TextHeadline>
 
