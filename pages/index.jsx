@@ -81,9 +81,26 @@ export default () => (
     />
 
     <Text title="Making change">
+      
+      <TextHeadline>Demands for improvements</TextHeadline>
+      
       <p>
-        Our cabin colleagues at Ryanair have united in ver.di, and they’ve already started to make demands for improvements. For years, Ryanair had refused to negotiate Collective Labour Agreements (CLAs) with union workers. But after flight crew started organising in ver.di, Ryanair publicly said it would recognize workers in unions and has commited to negotiate CLAs. Now Ryanair cabin crew are building on the momentum of the flight crew organising. Over the last few months, cabin crew in Germany and across Europe have begun talking to each other about uniting in ver.di. We’re holding assemblies where cabin crew come together to talk about the change we need and how to win it. And on the 12th of september cabin crew organized in ver.di decided to join the pilots at Ryanair for the first strike of cabin crew and pilots in Germany. The strike grounded 150 planes in Germany. Now we hope that the company moves, so that we can reach an agreement in Germany. On the same time we are sure that every step on the negotiation table is a reflection of the strength of the union on the bases. Thats why we will strengthen the network of organization of the cabin crew at each of the bases in Germany.
+        Our cabin colleagues at Ryanair have united in ver.di, and they’ve already started to make demands for improvements. For years, Ryanair had refused to negotiate Collective Labour Agreements (CLAs) with union workers. But after flight crew started organising in ver.di, Ryanair publicly said it would recognize workers in unions and has commited to negotiate CLAs.
       </p>
+      
+      <TextHeadline>Assemblies</TextHeadline>
+      
+      <p>
+        Now Ryanair cabin crew are building on the momentum of the flight crew organising. Over the last few months, cabin crew in Germany and across Europe have begun talking to each other about uniting in ver.di. We’re holding assemblies where cabin crew come together to talk about the change we need and how to win it.
+      </p>
+      
+       <TextHeadline>Strikes</TextHeadline>
+      
+      <p>
+        And on the 12th of september cabin crew organized in ver.di decided to join the pilots at Ryanair for the first strike of cabin crew and pilots in Germany. The strike grounded 150 planes in Germany. Now we hope that the company moves, so that we can reach an agreement in Germany. On the same time we are sure that every step on the negotiation table is a reflection of the strength of the union on the bases. Thats why we will strengthen the network of organization of the cabin crew at each of the bases in Germany.
+      </p>
+
+
     </Text>
 
     <Quote text=" Having to pay for food and water at 35,000 feet. It’s just ridiculous." />
