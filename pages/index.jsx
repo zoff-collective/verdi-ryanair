@@ -157,54 +157,35 @@ export default () => (
 
     <Quote text=" There’s way too much pressure around sales targets. Cabin crew jobs should be about safety first, not sales! " />
 
-    <Text title="Membership">
-      <p>Individual Protections and Security that ver.di cabin crew members benefit from….</p>
+    <Text title="How does it work?">
 
-      <TextHeadline>Legal rights derived from collective agreements</TextHeadline>
-
-      <p>
-        ver.di members employed in companies subject to collective agreements enjoy the protection
-        offered by such agreements. And they receive support when they have to enforce their rights.
-        Non-members can only hope that the employer grants collectively agreed payments – they do
-        not have any legal claim to them.
-      </p>
-
-      <TextHeadline>Competent legal advice and representation</TextHeadline>
+      <TextHeadline>Ver.di</TextHeadline>
 
       <p>
-        An important service offered by ver.di is the provision of legal advice. Whether labour, or
-        social law is involved, competent advisors are available to help members. And if a legal
-        dispute arises, legal specialists offer not only advice but also comprehensive,
-        free-of-charge legal protection – only for members, of course. ver.di legal protection even
-        covers representation in court, if necessary. Some unions claim to provide legal support,
-        but there is no other Cabin Crew Union, which provides even close to the same protection and
-        quality as ver.di
+        Ver.di is the only German civil aviation union. We organise all people working in the civil aviation industry, from cockpit to cabin crews and from airport to ground-handling workers. We have 3,000 collective labor agreements in civil aviation alone that ensure our members have good working conditions and a living wage. Our many thousand cabin crew members have achieved collective agreements at EasyJet, Eurowings, TUIfly, Lufthansa, European Air Transport and many other carriers.
       </p>
 
-      <TextHeadline>Strike pay during industrial disputes</TextHeadline>
+      <TextHeadline>Unity is strength!</TextHeadline>
 
       <p>
-        Sometimes collective bargaining grinds to a halt or employers try to force through their own
-        point of view and industrial action becomes unavoidable. As employers do not continue to pay
-        wages during strikes or lockouts, ver.di intervenes to help its members, providing strike
-        pay to help them avoid financial hardship.
+        We also unite other service workers, and with 2 million members overall ver.di is the biggest service trade union in the world.
+        The name ver.di stands for Vereinte Dienstleistungsgewerkschaft – United Services Union.
+        We, ver.di, are one union for all. We consolidate the interest of all our members — and by working together empower each one of us.
+        We create unity out of diversity. And in unity is strength!
       </p>
 
-      <TextHeadline>Membership fee is 1% of your regular monthly income.</TextHeadline>
+      <TextHeadline>Laws to protect worker rights</TextHeadline>
 
       <p>
-        This means out of your fixed basic pay (and, if available, fixed rank allowance). If you are
-        paid by block hours only than you have to multiply your block hour rate with 65 for
-        calculating the monthly income. Those who have more, pay more – those with less money pay
-        less. Our members subscribe one percent of their basic gross income to support the union and
-        enable it to operate effectively. And the jobless pay a reduced subscription. The
-        subscription is also tax-deductible.
+        We are a powerful voice for workers both on and off the job. We win collective labour agreements, we help create and advise works council elected by all employees, and we protect each worker’s individual rights by giving legal aid and advice.
+        We also inform the public about the importance of unions, and we fight at the local, national and regional level for laws to protect worker rights.
       </p>
+
     </Text>
 
     <Cta
       image={require('../static/images/become-member.jpg')}
-      title="To help win lasting change at Ryanair"
+      title="Want to win improvements with your co-workers in ver.di?"
       target="https://mitgliedwerden.verdi.de/beitritt/verdi"
       label="Become a ver.di member"
     />
