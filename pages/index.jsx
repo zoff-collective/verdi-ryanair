@@ -217,7 +217,7 @@ export default () => (
 
     </Text>
     
-     <Quote text=" There’s way too much pressure around sales targets. Cabin crew jobs should be about safety first, not sales! " />
+     <Quote text=" The last thing Ryanair wants is articulate employees who stands up for their rights. " />
 
     <Text title="Membership">
 
