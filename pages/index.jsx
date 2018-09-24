@@ -37,13 +37,13 @@ export default () => (
       title="What do we want!"
       groups={[
         {
-          title: 'Economic conditions',
-          items: ['Fair living wage', 'Guaranteed steady income', 'Annual leave', 'Seniority pay']
+          title: 'LOW pay',
+          items: ['even though rent and the cost of living in Germany is HIGH.']
         },
 
         {
-          title: 'National law',
-          items: ['Agency employment', 'Sickness leave and pay']
+          title: 'Agency employment',
+          items: ['We work on Ryanair planes, wear Ryanair uniforms, follow Ryanair procedures, work Ryanair rosters. We should be on Ryanair contracts.']
         },
 
         {
