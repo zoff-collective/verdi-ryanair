@@ -139,7 +139,6 @@ export default () => (
     />
 
     <Text title="How do we win!">
-      <TextHeadline>Times are changing</TextHeadline>
 
        <TextHeadline>Organising</TextHeadline>
       
@@ -189,6 +188,71 @@ export default () => (
       target="https://mitgliedwerden.verdi.de/beitritt/verdi"
       label="Become a ver.di member"
     />
+    
+    <Text title="Our Strategy">
+
+      <TextHeadline>Good wages</TextHeadline>
+
+      <p>
+        Profits are high at Ryanair. It can afford to do better for its cabin crew. Ver.di has proved at EasyJet that low-cost carriers can have good wages and working conditions for cabin crew and still be profitable. 
+      </p>
+
+      <TextHeadline>Living wage and working conditions</TextHeadline>
+
+      <p>
+        Our goal at Ryanair is to win a living wage and improve working conditions through a collective labor agreement. Those agreements ensure that Ryanair respects national law, workers rights and co-determination of workers in making decisions about workplace issues that affect them.
+      </p>
+
+      <TextHeadline>Strong multinational approach</TextHeadline>
+
+      <p>
+        To organise a multinational company like Ryanair, we believe in a strong multinational approach. We know that one base alone — and even Germany alone — can’t take on Ryanair by itself. That’s why we‘re working internationally with our partner unions within the International Transport-Workers Federation (ITF) and European Transport-Workers Federation (ETF), which are the strongest aviation federations in Europe. We unite cabin crews in more than 14 countries and together we can coordinate workers to ensure that Ryanair can’t pit one base against another.
+      </p>
+      
+      <TextHeadline>Winning real change</TextHeadline>
+
+      <p>
+        Together, we’ll continue growing our existing network of Ryanair cabin crew at bases across Europe. And we’ll go from sharing our concerns about the company to winning real change at Ryanair. 
+      </p>
+
+    </Text>
+    
+     <Quote text=" There’s way too much pressure around sales targets. Cabin crew jobs should be about safety first, not sales! " />
+
+    <Text title="Protections and Security">
+
+      <TextHeadline>Legal rights in our Collective Labour Agreements</TextHeadline>
+
+      <p>
+        Ver.di members have important legal rights in the Collective Labor Agreements (CLAs) they negotiate with employers and then vote to approve. And they receive support when they have to enforce their rights. Non-members can only hope that the employer grants collectively agreed payments and benefits — they do not have any legal claim to them.
+      </p>
+
+      <TextHeadline>Collective agreements regulate working conditions better than many laws</TextHeadline>
+
+      <p>
+        In addition to wages, collective agreements also regulate working times, vacation entitlements, vacation bonuses and many other benefits. For example, many collective agreements include the right to 30 days of vacation on the basis of a five-day week. Without a collective agreement or equivalent employment contract, federal law applies — and vacation entitlement shrinks to a mere four weeks. Special payments such as vacation bonuses are only secured by collective agreements. This also applies to release from work in special cases.
+      </p>
+
+      <TextHeadline>Competent legal advice and representation</TextHeadline>
+
+      <p>
+        An important service offered by ver.di is the provision of legal advice. Whether labour, or social law is involved, competent advisors are available to help members. And if a legal dispute arises, legal specialists offer not only advice but also comprehensive, free-of-charge legal protection — only for members, of course. ver.di legal protection even covers representation in court, if necessary. Some unions claim to provide legal support, but there is no other cabin crew union that provides even close to the same protection and quality as ver.di.
+      </p>
+      
+        <TextHeadline>Strike pay during industrial disputes</TextHeadline>
+
+      <p>
+        Sometimes collective bargaining grinds to a halt or employers try to force through their own point of view and a strike becomes unavoidable. As employers do not continue to pay wages during strikes or lockouts, ver.di intervenes to help its members, providing strike pay to help them avoid financial hardship.
+      </p>
+      
+        <TextHeadline>Affordable and fair membership fee</TextHeadline>
+
+      <p>
+        Usually, the ver.di membership fee is 1 percent of your regular monthly income. This means 1 percent out of your fixed basic pay (and, if available, fixed rank allowance). If you are paid by block hours, then you multiply your block hour rate by 65 to calculate the monthly income. Those who have more, pay more — those with less money pay less. Our members subscribe 1 percent of their basic gross income to support the union and enable it to operate effectively. And the jobless pay a reduced subscription. The subscription is also tax-deductible.
+      </p>
+
+    </Text>
+    
 
     <Footer
       title="Time to change at Ryanair"
