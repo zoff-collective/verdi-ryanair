@@ -25,6 +25,13 @@ export default () => (
     />
 
     <Hero title="Time for change at Ryanair" image={require('../static/images/hero.jpg')} />
+    
+     <Text title="We are many!">
+      <p>
+        Cabin crew at Ryanair are joining together in ver.di to demand Ryanair change in Germany and across Europe. By uniting in ver.di, cabin crew at Ryanair are joining the largest and most powerful aviation union in Germany. Ver.di is the only union with a proven track record of winning real cabin crew victories at low-cost carriers.
+        In the last three weeks cabin crew at all bases were surveyed by union activist about their priorities concerning the negotiations with Ryanair. The list below is the overview of the main concerns by Cabin crew. Now cabin crew from all bases in Germany participated in the survey. Here is what they said:
+      </p>
+    </Text>
 
     <Demands
       title="What do we want!"
