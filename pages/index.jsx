@@ -29,7 +29,7 @@ export default () => (
      <Text title="Cabin crew">
       <p>
         Cabin crew at Ryanair are joining together in ver.di to demand Ryanair change in Germany and across Europe. By uniting in ver.di, cabin crew at Ryanair are joining the largest and most powerful aviation union in Germany. Ver.di is the only union with a proven track record of winning real cabin crew victories at low-cost carriers.
-        In the last three weeks cabin crew at all bases were surveyed by union activist about their priorities concerning the negotiations with Ryanair. The list below is the overview of the main concerns by Cabin crew. Now cabin crew from all bases in Germany participated in the survey. Here is what they said:
+        In the last three weeks cabin crew at all bases were surveyed by union activist about their priorities concerning the negotiations with Ryanair. The list below is the overview of the main concerns by Cabin crew. Now cabin crew from all bases in Germany participated in the survey.
       </p>
     </Text>
 
@@ -37,15 +37,23 @@ export default () => (
       title="What do we want!"
       groups={[
         {
-          title: 'LOW pay',
-          items: ['even though rent and the cost of living in Germany is HIGH.']
+          title: 'Economic Conditions',
+          items: [
+            'Fair living wage',
+            'Guaranteed steady income',
+            'Annual leave',
+            'Seniority pay'
+          ]
         },
 
         {
-          title: 'Agency employment',
-          items: ['We work on Ryanair planes, wear Ryanair uniforms, follow Ryanair procedures, work Ryanair rosters. We should be on Ryanair contracts.']
+          title: 'National Law',
+          items: [
+            'Agency employment', 
+            'Sickness leave and pay'
+          ]
         },
-
+        
         {
           title: 'Codetermination',
           items: [
