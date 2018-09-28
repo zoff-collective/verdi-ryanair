@@ -116,4 +116,11 @@ export default css`
       width: 2rem;
     }
   }
+
+  @media ${mq.tablet} {
+    .social-icon {
+      height: 2.75rem;
+      width: 2.75rem;
+    }
+  }
 `;
