@@ -21,7 +21,7 @@ export default () => (
     />
 
     <Text title="Guardians">
-      <TextHeadline>How it all started</TextHeadline>
+      <TextHeadline>Arbeitsbedingungen bei Ryanair</TextHeadline>
 
       <p>
         Im August 2018 haben die deutschlandweiten ver.di Mitglieder beim Kabinenpersonal Ryanairs
@@ -31,7 +31,7 @@ export default () => (
         gesundheitserhaltende Arbeitsbedingungen bei Ryanair in Deutschland einzuführen.
       </p>
 
-      <TextHeadline>Harassment and dismissals</TextHeadline>
+      <TextHeadline>Einschüchterung, Schikane und Kündigungen</TextHeadline>
 
       <p>
         Gewerkschaftliche Organisierung wurde lange offiziell vom Management „untersagt“ und
@@ -41,7 +41,7 @@ export default () => (
         Schikane und sogar Kündigungen gegenüber Mitgliedern der Tarifkommission kommen könnte.
       </p>
 
-      <TextHeadline>Supporters</TextHeadline>
+      <TextHeadline>"Guardians"</TextHeadline>
 
       <p>
         Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeinsam mit
