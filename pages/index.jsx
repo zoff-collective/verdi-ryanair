@@ -111,7 +111,7 @@ export default () => (
         {
           number: '65%',
           text: `
-            of Ryanair’s cabine crew say theer is too much pressure on sales targets
+            of Ryanair’s cabine crew say there is too much pressure on sales targets
           `
         },
 
