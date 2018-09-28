@@ -30,7 +30,7 @@ export default css`
     color: red;
     display: block;
     font-family: ${fonts.novel.family.bold};
-    font-size: 1rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
     text-align: center;
   }
