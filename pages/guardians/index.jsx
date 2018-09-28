@@ -18,6 +18,7 @@ export default () => (
       name="Rights at Ryanair"
       href="https://verkehr.verdi.de/branchen/luftverkehr/fluggesellschaften/ryanair"
       navigation={[['Cabin Crew', '/'], ['Guardians', '/guardians', true], ['News', '/news']]}
+      facebookLink="https://www.facebook.com/Verdi-Cabin-Crew-United-Germany-475233959645901/"
     />
 
     <Text title="Guardians">
@@ -225,7 +226,7 @@ export default () => (
             Immer mehr wird darüber bekannt, wie unfair und entwürdigend das Kabinenpersonal von Ryanair behandelt wird. Das entsetzt mich und deshalb habe ich mich entschlossen Pate zu werden. Um zu zeigen, dass die mutigen Mitarbeiterinnen und Mitarbeiter, die gegen eine solche Behandlung protestieren, nicht alleine stehen und Solidarität verdient haben. Mit den Ryanair-Beschäftigten muss endlich fair umgegangenen und das eigentlich selbstverständliche Recht auf ungehinderte Tarifverhandlungen muss voll und ganz anerkannt werden. Einschüchterungen und Schikanen dürfen keinen Platz haben. Die Beschäftigten brauchen endlich eine angemessene Bezahlung und ordentliche Arbeitsbedingen.
           `
         },
-        
+
         {
           name: 'Nancy Faeser',
           role: 'Generalssekretärin der SPD in Hessen',
@@ -233,7 +234,7 @@ export default () => (
             Ich bin Patin bei der ver.di Tarifkommission für Ryan Air, weil Tarifverträge eine wichtige Basis für faire Arbeitsbedingungen und Einkommen sind. Beides ist bei Ryan Air dringend notwendig.
           `
         },
-        
+
         {
           name: 'Dietmar Woidke',
           role: 'SPD Vorsitzender in Brandenburg',
@@ -241,7 +242,6 @@ export default () => (
             Wer mit deutschen Flugpassagieren viel Geld verdient, muss seine Beschäftigten auch nach deutschen Standards bezahlen. Für die Beschäftigten muss auch unser Arbeitsrecht gelten. Sie müssen die Möglichkeit haben, dafür zu kämpfen, notfalls auch zu streiken.
           `
         }
-        
       ]}
     />
 

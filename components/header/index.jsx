@@ -2,7 +2,7 @@ import styles from './styles';
 
 import Navigation from './navigation';
 
-export default ({ href, name, navigation }) => (
+export default ({ href, name, navigation, facebookLink }) => (
   <header>
     <style jsx>{styles}</style>
 
@@ -20,7 +20,7 @@ export default ({ href, name, navigation }) => (
 
       <p className="name">{name}</p>
 
-      <Navigation items={navigation} />
+      <Navigation items={navigation} facebookLink={facebookLink} />
     </div>
   </header>
 );

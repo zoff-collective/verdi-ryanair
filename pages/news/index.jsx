@@ -17,6 +17,7 @@ export default withRSS('https://verkehr.verdi.de/themen/nachrichten/rss', ({ ite
       name="Rights at Ryanair"
       href="https://verkehr.verdi.de/branchen/luftverkehr/fluggesellschaften/ryanair"
       navigation={[['Cabin Crew', '/'], ['Guardians', '/guardians'], ['News', '/news', true]]}
+      facebookLink="https://www.facebook.com/Verdi-Cabin-Crew-United-Germany-475233959645901/"
     />
 
     {items && <News title="Latest News" items={items} />}

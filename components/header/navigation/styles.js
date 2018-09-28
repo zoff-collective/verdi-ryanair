@@ -51,36 +51,69 @@ export default css`
     }
   }
 
-  a,
-  span {
+  .item {
     color: currentColor;
     font-family: ${fonts.novel.family.black};
     font-size: 1.15rem;
     line-height: 1;
     text-decoration: none;
+    white-space: nowrap;
   }
 
   @media ${mq.tablet} {
-    a,
-    span {
+    .item {
       font-size: 1.3rem;
+      position: relative;
+      top: 0.25rem;
     }
   }
 
   @media ${mq.desktop} {
-    a,
-    span {
+    .item {
       font-size: 1.9rem;
     }
   }
 
-  span {
+  .item:hover,
+  .item:focus,
+  span.item {
     border-bottom: 2px solid ${colors.blue};
   }
 
   @media ${mq.tablet} {
-    span {
+    .item:hover,
+    .item:focus,
+    span.item {
       border-bottom-width: 5px;
+    }
+  }
+
+  .visually-hidden {
+    position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+
+  .social-icon {
+    color: ${colors.blue};
+    height: 1.75rem;
+    margin-left: 1rem;
+    position: relative;
+    top: -0.25rem;
+    width: 1.75rem;
+  }
+
+  @media ${mq.tablet} {
+    .social-icon {
+      height: 2rem;
+      margin-left: 2rem;
+      position: relative;
+      top: 0.25rem;
+      width: 2rem;
     }
   }
 `;
