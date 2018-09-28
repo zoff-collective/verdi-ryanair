@@ -241,7 +241,16 @@ export default () => (
           quote: `
             Wer mit deutschen Flugpassagieren viel Geld verdient, muss seine Beschäftigten auch nach deutschen Standards bezahlen. Für die Beschäftigten muss auch unser Arbeitsrecht gelten. Sie müssen die Möglichkeit haben, dafür zu kämpfen, notfalls auch zu streiken.
           `
+        },
+        
+        {
+          name: 'Uwe Schmidt',
+          role: 'MdB, SPD-Bundestagsfraktion',
+          quote: `
+            Als stellvertretender Bundesvorsitzender der Arbeitsgemeinschaft für Arbeitnehmerfragen in der SPD stehe ich klar und deutlich an der Seite der Beschäftigten von Ryanair. Ich verurteile das Geschäftsmodell von Ryanair, das auf Dumpinglöhne und prekäre Beschäftigung beruht sowie massiven Druck auf die Arbeitnehmerinnen und Arbeitnehmer ausübt. Aus diesem Grund bin ich Pate für die ver.di-Tarifkommission bei Ryanair und fordere: Play fair, Ryanair!
+          `
         }
+        
       ]}
     />
 
