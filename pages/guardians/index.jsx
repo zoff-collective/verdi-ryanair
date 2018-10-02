@@ -265,6 +265,22 @@ export default () => (
           quote: `
             Ich bin Patin für die ver.di-Tarifkommission bei Ryanair, weil ich die Beschäftigten von Ryanair in Deutschland unterstütze, die hier geltenden arbeits- und arbeitskampfrechtlichen Standards durchzusetzen. Dazu gehört auch das legitime Recht der Belegschaft zu Tarifverhandlungen für das Kabinenpersonal, um endlich gute und verbindliche Arbeitsbedingungen zu vereinbaren.
           `
+        },
+        
+         {
+          name: 'Katina Schubert',
+          role: 'Berliner Landesvorsitzende DIE LINKE',
+          quote: `
+           Ich bin Patin für die ver.di-Tarifkommission bei Ryanair, weil die Beschäftigten bei Ryanair Unterstützung und Solidarität in ihrem Kampf für einen Tarifvertrag, gegen Lohndumping, miese Arbeitsbedingungen und Repressalien brauchen. Ein guter Tarifvertrag schützt die Beschäftigten von Ryanair, ist aber auch ein wichtiger Beitrag für ein solidarisches Europa, das ausbeuterischen Unternehmen die rote Karte zeigt.
+          `
+        },
+        
+         {
+          name: 'Michael Kellner',
+          role: 'Bundesgeschäftsführer Bündnis 90 / Die Grünen',
+          quote: `
+            Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil der Kampf für ein soziales Europa nur gemeinsam gewonnen werden kann.
+          `
         }
         
       ]}
