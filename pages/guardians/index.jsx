@@ -249,6 +249,14 @@ export default () => (
           quote: `
             Als stellvertretender Bundesvorsitzender der Arbeitsgemeinschaft für Arbeitnehmerfragen in der SPD stehe ich klar und deutlich an der Seite der Beschäftigten von Ryanair. Ich verurteile das Geschäftsmodell von Ryanair, das auf Dumpinglöhne und prekäre Beschäftigung beruht sowie massiven Druck auf die Arbeitnehmerinnen und Arbeitnehmer ausübt. Aus diesem Grund bin ich Pate für die ver.di-Tarifkommission bei Ryanair und fordere: Play fair, Ryanair!
           `
+        },
+        
+         {
+          name: 'Hubertus Heil',
+          role: 'Bundesminister für Arbeit und Soziales',
+          quote: `
+            Ich bin Pate für Tarifkommissionsmitglied Laura Mele aus Berlin, weil die deutsche Verfassung das Streikrecht garantiert und dafür sorgt, dass Arbeitnehmerinnen und Arbeitnehmer ohne Drangsalierungen für ihre Interessen eintreten können.
+          `
         }
         
       ]}
