@@ -257,6 +257,14 @@ export default () => (
           quote: `
             Ich bin Pate für Tarifkommissionsmitglied Laura Mele aus Berlin, weil die deutsche Verfassung das Streikrecht garantiert und dafür sorgt, dass Arbeitnehmerinnen und Arbeitnehmer ohne Drangsalierungen für ihre Interessen eintreten können.
           `
+        },
+        
+         {
+          name: 'Elke Breitenbach',
+          role: 'Berliner Senatorin für Integration, Arbeit und Soziales',
+          quote: `
+            Ich bin Patin für die ver.di-Tarifkommission bei Ryanair, weil ich die Beschäftigten von Ryanair in Deutschland unterstütze, die hier geltenden arbeits- und arbeitskampfrechtlichen Standards durchzusetzen. Dazu gehört auch das legitime Recht der Belegschaft zu Tarifverhandlungen für das Kabinenpersonal, um endlich gute und verbindliche Arbeitsbedingungen zu vereinbaren.
+          `
         }
         
       ]}
