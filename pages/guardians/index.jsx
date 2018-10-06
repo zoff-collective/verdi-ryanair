@@ -281,6 +281,30 @@ export default () => (
           quote: `
             Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil der Kampf für ein soziales Europa nur gemeinsam gewonnen werden kann.
           `
+        },
+        
+         {
+          name: 'Sigmar Gabriel',
+          role: 'Bundestagsabgeordneter der SPD',
+          quote: `
+            Ich bin Pate für die Beschäftigten bei Ryanair, weil ich um den Wert der verfassungsmäßig garantierten Grundrechte weiß. Beschäftigte, deren Grundrechte aufgrund von wirtschaftlichen Wettbewerbsvorteilen beschnitten werden und die sich dagegen wehren, verdienen meinen Schutz und meine Anerkennung.
+          `
+        },
+        
+         {
+          name: 'Annelie Buntenbach',
+          role: 'Mitglied des geschäftsführenden DGB-Bundesvorstands',
+          quote: `
+            Ich bin Patin für die Ryanair verdi Tarifkommission, weil ich diejenigen unterstütze die sich mutig zu Wehr setzen, damit endlich Schluss ist mit der Verschiebung von Menschen quer durch Europa zu miserablen Bezahlung und schlechten Arbeitsbedingung bei Ryanair.
+          `
+        },
+        
+         {
+          name: 'Karl-Josef Laumann',
+          role: 'Bundesvorsitzende der CDA Deutschlands',
+          quote: `
+            Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil gute Arbeitsbedingungen und faire Löhne am besten in Tarifverträgen ausgehandelt werden.
+          `
         }
         
       ]}
