@@ -42,7 +42,7 @@ export default () => (
         Schikane und sogar Kündigungen gegenüber Mitgliedern der Tarifkommission kommen könnte.
       </p>
 
-      <TextHeadline>"Guardians"</TextHeadline>
+      <TextHeadline>&quot;Guardians&quot;</TextHeadline>
 
       <p>
         Eine Reihe von zivilgesellschaftlichen Paten und Patinnen stehen deshalb gemeinsam mit
@@ -242,7 +242,7 @@ export default () => (
             Wer mit deutschen Flugpassagieren viel Geld verdient, muss seine Beschäftigten auch nach deutschen Standards bezahlen. Für die Beschäftigten muss auch unser Arbeitsrecht gelten. Sie müssen die Möglichkeit haben, dafür zu kämpfen, notfalls auch zu streiken.
           `
         },
-        
+
         {
           name: 'Uwe Schmidt',
           role: 'MdB, SPD-Bundestagsfraktion',
@@ -250,63 +250,62 @@ export default () => (
             Als stellvertretender Bundesvorsitzender der Arbeitsgemeinschaft für Arbeitnehmerfragen in der SPD stehe ich klar und deutlich an der Seite der Beschäftigten von Ryanair. Ich verurteile das Geschäftsmodell von Ryanair, das auf Dumpinglöhne und prekäre Beschäftigung beruht sowie massiven Druck auf die Arbeitnehmerinnen und Arbeitnehmer ausübt. Aus diesem Grund bin ich Pate für die ver.di-Tarifkommission bei Ryanair und fordere: Play fair, Ryanair!
           `
         },
-        
-         {
+
+        {
           name: 'Hubertus Heil',
           role: 'Bundesminister für Arbeit und Soziales',
           quote: `
             Ich bin Pate für Tarifkommissionsmitglied Laura Mele aus Berlin, weil die deutsche Verfassung das Streikrecht garantiert und dafür sorgt, dass Arbeitnehmerinnen und Arbeitnehmer ohne Drangsalierungen für ihre Interessen eintreten können.
           `
         },
-        
-         {
+
+        {
           name: 'Elke Breitenbach',
           role: 'Berliner Senatorin für Integration, Arbeit und Soziales',
           quote: `
             Ich bin Patin für die ver.di-Tarifkommission bei Ryanair, weil ich die Beschäftigten von Ryanair in Deutschland unterstütze, die hier geltenden arbeits- und arbeitskampfrechtlichen Standards durchzusetzen. Dazu gehört auch das legitime Recht der Belegschaft zu Tarifverhandlungen für das Kabinenpersonal, um endlich gute und verbindliche Arbeitsbedingungen zu vereinbaren.
           `
         },
-        
-         {
+
+        {
           name: 'Katina Schubert',
           role: 'Berliner Landesvorsitzende DIE LINKE',
           quote: `
            Ich bin Patin für die ver.di-Tarifkommission bei Ryanair, weil die Beschäftigten bei Ryanair Unterstützung und Solidarität in ihrem Kampf für einen Tarifvertrag, gegen Lohndumping, miese Arbeitsbedingungen und Repressalien brauchen. Ein guter Tarifvertrag schützt die Beschäftigten von Ryanair, ist aber auch ein wichtiger Beitrag für ein solidarisches Europa, das ausbeuterischen Unternehmen die rote Karte zeigt.
           `
         },
-        
-         {
+
+        {
           name: 'Michael Kellner',
           role: 'Bundesgeschäftsführer Bündnis 90 / Die Grünen',
           quote: `
             Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil der Kampf für ein soziales Europa nur gemeinsam gewonnen werden kann.
           `
         },
-        
-         {
+
+        {
           name: 'Sigmar Gabriel',
           role: 'Bundestagsabgeordneter der SPD',
           quote: `
             Ich bin Pate für die Beschäftigten bei Ryanair, weil ich um den Wert der verfassungsmäßig garantierten Grundrechte weiß. Beschäftigte, deren Grundrechte aufgrund von wirtschaftlichen Wettbewerbsvorteilen beschnitten werden und die sich dagegen wehren, verdienen meinen Schutz und meine Anerkennung.
           `
         },
-        
-         {
+
+        {
           name: 'Annelie Buntenbach',
           role: 'Mitglied des geschäftsführenden DGB-Bundesvorstands',
           quote: `
             Ich bin Patin für die Ryanair verdi Tarifkommission, weil ich diejenigen unterstütze die sich mutig zu Wehr setzen, damit endlich Schluss ist mit der Verschiebung von Menschen quer durch Europa zu miserablen Bezahlung und schlechten Arbeitsbedingung bei Ryanair.
           `
         },
-        
-         {
+
+        {
           name: 'Karl-Josef Laumann',
           role: 'Bundesvorsitzende der CDA Deutschlands',
           quote: `
             Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil gute Arbeitsbedingungen und faire Löhne am besten in Tarifverträgen ausgehandelt werden.
           `
         }
-        
       ]}
     />
 
