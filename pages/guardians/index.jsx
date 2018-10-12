@@ -305,7 +305,48 @@ export default () => (
           quote: `
             Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil gute Arbeitsbedingungen und faire Löhne am besten in Tarifverträgen ausgehandelt werden.
           `
+        },
+        
+        {
+          name: 'Alexander Fischer',
+          role: 'Berliner Staatssekretär für Arbeit und Soziales',
+          quote: `
+            Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil gute Arbeitsbedingungen und faire Löhne am besten in Tarifverträgen ausgehandelt werden.
+          `
+        },
+        
+        {
+          name: 'Kevin Kühnert',
+          role: 'Bundesvorsitzender der Jusos, SPD',
+          quote: `
+            Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil die Beschäftigten hier stellvertretend für uns alle zeigen können, dass Belegschaft, Gewerkschaft und Politik gemeinsam sehr wohl mächtiger sein können, als ein international agierendes Unternehmen. Und weil ich als Fluggast nicht von Menschen betreut werden möchte, die ausgebeutet werden, sich krank zur Arbeit schleppen müssen und in massiver finanzieller Unsicherheit leben.
+          `
+        },
+        
+        {
+          name: 'Andrea Nahles',
+          role: 'SPD-Parteivorsitzende und Vorsitzende der SPD-Bundestagsfraktion',
+          quote: `
+            Ich bin Patin für die ver.di-Tarifkommission, weil Tarifverträge, das Streikrecht und die Mitbestimmung auf gleicher Augenhöhe zu den elementaren Grundlagen unseres Landes zählen und alle Arbeitnehmerinnen und Arbeitnehmer darauf Anspruch haben müssen.
+          `
+        },
+        
+        {
+          name: 'Christian Bäumler',
+          role: '1. Stellv. Vorsitzende der CDA',
+          quote: `
+            Ich bin Pate für die ver.di-Tarifkommission bei Ryanair, weil das Streikrecht und die Würde der Arbeitnehmer unantastbar sind.
+          `
+        },
+        
+        {
+          name: 'Reiner Hoffmann',
+          role: 'Vorsitzender des Deutschen Gewerkschaftsbundes',
+          quote: `
+            Ich bin Pate für die Ryanair ver.di Tarifkommission, weil es höchste Zeit wird, dass die Beschäftigten ordentliche Tariflöhne bekommen.
+          `
         }
+        
       ]}
     />
 
