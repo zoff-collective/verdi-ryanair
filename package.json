@@ -17,8 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
-    "next": "^7.0.0",
-    "next-images": "^1.0.0",
+    "next": "^7.0.2",
+    "next-images": "^1.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "xmldom": "^0.1.27",
