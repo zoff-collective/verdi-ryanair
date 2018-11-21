@@ -90,7 +90,7 @@ export default () => (
 
         {
           name: 'Bernd Riexinger',
-          role: 'Stellvertretender SPD-Bundesvorsitzender',
+          role: 'Parteivorsitzender Die Linke',
           quote: `
             Ich unterstütze die Gewerkschaften bei ihren Tarifverhandlungen mit Ryanair, weil Löhne und Arbeitsbedingungen bei uns nicht einseitig festgelegt sondern zwischen den Tarifparteien fair ausgehandelt werden. Die Geltendmachung von Arbeitnehmerinteressen ist geschützt, der Zusammenschluss in Gewerkschaften und Verbänden und der Arbeitskampf haben hier Verfassungsrang. Auch Unternehmen wie Ryanair, die Dumpinglöhne, prekäre Beschäftigung und Druck auf Arbeitnehmerinnen und Arbeitnehmer zum Geschäftsmodell gemacht haben, müssen wissen: Die SPD ist in dieser Frage nicht neutral sondern klar auf der Seite der Beschäftigten.
           `
@@ -98,7 +98,7 @@ export default () => (
 
         {
           name: 'Arno Klare',
-          role: 'Vorsitzender der Partei DIE LINKE',
+          role: 'SPD MdB',
           quote: `
             Die Kabinenbeschäftigten von Ryanair sind mutige Heldinnen und Helden. Sie nehmen den Kampf mit einem schier übermächtigen Konzern auf und streben einen Tarifvertrag an. Ich drücke ihnen die Daumen! Ihr Engagement nutzt allen Beschäftigten in Deutschland. Es kann nicht angehen, dass internationale Konzerne ihre Profite durch Lohndumping auf dem Rücken der Beschäftigten machen. Nur ein Tarifvertrag kann nachhaltige Verbesserungen und gleichwertige Arbeitsbedingungen für alle Flugbegleiterinnen und Flugbegleiter bei Ryanair in Deutschland sicherstellen!
           `
