@@ -98,7 +98,7 @@ export default () => (
 
         {
           name: 'Arno Klare',
-          role: 'Vorsitzender der Partei DIE LINKE',
+          role: 'SPD-MdB',
           quote: `
             Die Kabinenbeschäftigten von Ryanair sind mutige Heldinnen und Helden. Sie nehmen den Kampf mit einem schier übermächtigen Konzern auf und streben einen Tarifvertrag an. Ich drücke ihnen die Daumen! Ihr Engagement nutzt allen Beschäftigten in Deutschland. Es kann nicht angehen, dass internationale Konzerne ihre Profite durch Lohndumping auf dem Rücken der Beschäftigten machen. Nur ein Tarifvertrag kann nachhaltige Verbesserungen und gleichwertige Arbeitsbedingungen für alle Flugbegleiterinnen und Flugbegleiter bei Ryanair in Deutschland sicherstellen!
           `
